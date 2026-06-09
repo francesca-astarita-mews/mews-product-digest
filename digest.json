@@ -1,5 +1,212 @@
 {
-  "period": "Placeholder — not yet refreshed",
-  "refreshed": "2025-06-09",
-  "items": []
+  "period": "Late May – Early June 2026",
+  "refreshed": "2026-06-09",
+  "items": [
+    {
+      "title": "Mews RMS — Revenue Management Built into Mews",
+      "status": "ga",
+      "date": "2026-05-27",
+      "area": "RMS",
+      "summary": "Mews RMS brings pricing, forecasting, and BI into a single platform inside Mews Operations, powered by Atomize. Autopilot adjusts rates automatically based on booking behaviour. All new customers are now sold on Mews RMS, not Atomize.",
+      "pitch": "Stop switching between systems. With rates, forecasts, and performance insights all in one place, revenue managers can make faster, smarter decisions without leaving Mews. Demand-first intelligence and automation mean pricing stays sharp – without the manual effort.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/meet-mews-rms-stop-switching-between-systems-maximize-revenue-within-mews"
+        },
+        {
+          "label": "Mews University",
+          "url": "https://university.mews.com/student/path/231606-mews-rms"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-onboard-with-Mews-RMS?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Granular Permissions — Role-Based Access Control",
+      "status": "ga",
+      "date": "2026-05-26",
+      "area": "Operations",
+      "summary": "70+ precise permission controls allowing admins to assign structured roles rather than individual permissions. Reduces over-privileged users, improves security, and scales across growing portfolios.",
+      "pitch": "Setting up granular permissions helps reduce security risk by limiting unnecessary access across your property or portfolio. Instead of maintaining individual permissions, you can now assign structured roles that match real operational responsibilities.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/meet-your-new-way-to-manage-access-with-granular-permissions-in-mews-operations-eXuTitr0"
+        },
+        {
+          "label": "Confluence",
+          "url": "https://mews.atlassian.net/wiki/spaces/fps/pages/1711669437"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/Set-up-and-customize-user-roles?language=en_US"
+        },
+        {
+          "label": "FAQ",
+          "url": "https://help.mews.com/s/article/Role-based-permissions-FAQ?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Recurring Payments — Automate Monthly Guest Charges",
+      "status": "ga",
+      "date": "2026-06-04",
+      "area": "Payments",
+      "summary": "New feature for automated monthly payments via SEPA Direct Debit or credit card. Designed for long-stay, co-living, memberships, and recurring service billing.",
+      "pitch": "Recurring Payments lets properties automate monthly guest charges directly in Mews using SEPA Direct Debit or credit cards. Instead of manually chasing repeat payments, teams can set up a payment plan once and let Mews handle the rest — reducing admin effort, improving payment reliability, and creating more predictable revenue.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/meet-your-new-way-to-handle-repeat-payments-recurring-payments-2iqtl50m"
+        },
+        {
+          "label": "Confluence",
+          "url": "https://mews.atlassian.net/wiki/x/3IPyKw"
+        },
+        {
+          "label": "Mews University",
+          "url": "https://university.mews.com/student/enrollments/create_enrollment_from_token/wFZ6hTL31CDB2kJz3JP29K1b"
+        },
+        {
+          "label": "FAQs",
+          "url": "https://help.mews.com/s/article/Recurring-by-Mews-Payments-FAQs?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "New Mews Terminals — Full Hardware Portfolio on Marketplace",
+      "status": "ga",
+      "date": "2026-06-08",
+      "area": "Payments",
+      "summary": "Four new PCI PTS 6 certified terminal models (A1, A2, A3, A4, S1, S2) now available for purchase on the Mews Marketplace. Pre-configured and plug-and-play, covering front desk to unattended kiosk.",
+      "pitch": "Mews now offers a complete payment terminal portfolio for every hospitality setup. Customers can order PCI PTS 6 certified terminals directly from the Mews Marketplace, with pre-configured hardware that works out of the box and supports everything from traditional front desks to self-service kiosks.",
+      "segmentation": "Adyen customers only",
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/new-mews-terminals-built-for-every-guest-journey-now-available-for-purchase-on-the-mews-marketplace"
+        },
+        {
+          "label": "Confluence",
+          "url": "https://mews.atlassian.net/wiki/spaces/FINTECH/pages/1349648458/PMK+Fintech+GTM+Focus+on+2026+Terminals+line-up+launch"
+        },
+        {
+          "label": "Tech Specs",
+          "url": "https://help.mews.com/s/article/Technical-specifications-for-Mews-Terminals?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Stronger Security Overview in Mews Operations",
+      "status": "ga",
+      "date": "2026-06-04",
+      "area": "Operations",
+      "summary": "Clearer security posture visibility with simplified security ratings, actionable recommendations, and refreshed scoring. Available to all admin users.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/stronger-security-with-a-clearer-security-overview-in-mews-operations-BHXcLEsZ"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/Securing-your-Mews-Operations-user-accounts?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Auto-Email Balanced Bills After Checkout",
+      "status": "ga",
+      "date": "2026-06-04",
+      "area": "Billing & Accounting",
+      "summary": "Mews now automatically emails balanced bills closed during check-out, completing the end-to-end automated billing journey. Company-level opt-outs available.",
+      "pitch": "Automated billing now goes all the way through to bill delivery. Once enabled, Mews can automatically email balanced bills that are closed during check-out, reducing manual tasks and helping guests and companies receive their final bill faster.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/email-balanced-bills-automatically-after-checkout-in-mews-operations-YpkibjJ2"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-automatically-send-bills-during-check-out-in-Mews-Operations?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Flexible Allowances — Per Night / Per Guest / Per Guest Per Night",
+      "status": "ga",
+      "date": "2026-06-03",
+      "area": "Operations",
+      "summary": "Allowances now support per night, per guest, or per guest per night configurations. Teams can also edit or delete allowances. Reduces manual workarounds for corporate meal credits and complex packages.",
+      "pitch": "Allowances are now a much more powerful and flexible tool for selling products and services. Whether you're offering daily dining credits, managing long-stay corporate agreements, or updating guest entitlements, you can configure and maintain allowances in a way that matches your property's real-world operations.",
+      "segmentation": "Spain only",
+      "links": [
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-create-an-allowance-in-Mews-Operations?language=en_US"
+        },
+        {
+          "label": "FAQs",
+          "url": "https://help.mews.com/s/article/FAQs-for-allowances?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "New Navigation Shell — Redesigned Side Menu",
+      "status": "radar",
+      "date": null,
+      "area": "Operations",
+      "summary": "Redesigned side navigation now in Demo for internal testing. New shell architecture for the Mews OS layout. No GA date confirmed yet.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Design Vision (Loom)",
+          "url": "https://www.loom.com/share/9dc85368ad2044a88bd465ab67f85489"
+        }
+      ]
+    },
+    {
+      "title": "Semantic Layer Learning — AI Agent Memory & Guest Preferences",
+      "status": "radar",
+      "date": null,
+      "area": "AI & Agents",
+      "summary": "Early R&D: the Intelligence team is building learning capabilities into the Mews semantic layer — capturing guest preferences, front-desk feedback, and revenue manager inputs to personalise AI agent behaviour over time.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Technical Write-up",
+          "url": "https://mews.atlassian.net/wiki/x/cwOHdQ"
+        },
+        {
+          "label": "Data Sharing Framework",
+          "url": "https://mews.atlassian.net/wiki/x/jIT3XQ"
+        }
+      ]
+    },
+    {
+      "title": "Mews Navigator — AI-Native Product OS Prototype",
+      "status": "radar",
+      "date": null,
+      "area": "AI & Agents",
+      "summary": "Internal working prototype exploring what an AI-native Mews could look like: directionality for builders, outcome-focused metrics, and no-code shipping for non-engineers. A conversation starter — signals long-term product direction.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Loom Walkthrough",
+          "url": "https://www.loom.com/share/a39633974b9d44d2b2698ef0c837977f"
+        }
+      ]
+    }
+  ]
 }
