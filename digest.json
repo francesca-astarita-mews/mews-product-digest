@@ -1,63 +1,13 @@
 {
-  "period": "Late May – Early June 2026",
-  "refreshed": "2026-06-09",
+  "period": "June 1 – June 15, 2026",
+  "refreshed": "2026-06-15",
   "items": [
     {
-      "title": "Mews RMS — Revenue Management Built into Mews",
-      "status": "ga",
-      "date": "2026-05-27",
-      "area": "RMS",
-      "summary": "Mews RMS brings pricing, forecasting, and BI into a single platform inside Mews Operations, powered by Atomize. Autopilot adjusts rates automatically based on booking behaviour. All new customers are now sold on Mews RMS, not Atomize.",
-      "pitch": "Stop switching between systems. With rates, forecasts, and performance insights all in one place, revenue managers can make faster, smarter decisions without leaving Mews. Demand-first intelligence and automation mean pricing stays sharp – without the manual effort.",
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/meet-mews-rms-stop-switching-between-systems-maximize-revenue-within-mews"
-        },
-        {
-          "label": "Mews University",
-          "url": "https://university.mews.com/student/path/231606-mews-rms"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-onboard-with-Mews-RMS?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Granular Permissions — Role-Based Access Control",
-      "status": "ga",
-      "date": "2026-05-26",
-      "area": "Operations",
-      "summary": "70+ precise permission controls allowing admins to assign structured roles rather than individual permissions. Reduces over-privileged users, improves security, and scales across growing portfolios.",
-      "pitch": "Setting up granular permissions helps reduce security risk by limiting unnecessary access across your property or portfolio. Instead of maintaining individual permissions, you can now assign structured roles that match real operational responsibilities.",
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/meet-your-new-way-to-manage-access-with-granular-permissions-in-mews-operations-eXuTitr0"
-        },
-        {
-          "label": "Confluence",
-          "url": "https://mews.atlassian.net/wiki/spaces/fps/pages/1711669437"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/Set-up-and-customize-user-roles?language=en_US"
-        },
-        {
-          "label": "FAQ",
-          "url": "https://help.mews.com/s/article/Role-based-permissions-FAQ?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Recurring Payments — Automate Monthly Guest Charges",
+      "title": "Recurring Payments (SEPA & Card)",
       "status": "ga",
       "date": "2026-06-04",
       "area": "Payments",
-      "summary": "New feature for automated monthly payments via SEPA Direct Debit or credit card. Designed for long-stay, co-living, memberships, and recurring service billing.",
+      "summary": "New feature enabling automated monthly charges via SEPA Direct Debit or credit card — designed for long-stay, co-living, memberships, and recurring billing. Set once, Mews handles the rest.",
       "pitch": "Recurring Payments lets properties automate monthly guest charges directly in Mews using SEPA Direct Debit or credit cards. Instead of manually chasing repeat payments, teams can set up a payment plan once and let Mews handle the rest — reducing admin effort, improving payment reliability, and creating more predictable revenue.",
       "segmentation": null,
       "links": [
@@ -70,21 +20,17 @@
           "url": "https://mews.atlassian.net/wiki/x/3IPyKw"
         },
         {
-          "label": "Mews University",
-          "url": "https://university.mews.com/student/enrollments/create_enrollment_from_token/wFZ6hTL31CDB2kJz3JP29K1b"
-        },
-        {
-          "label": "FAQs",
-          "url": "https://help.mews.com/s/article/Recurring-by-Mews-Payments-FAQs?language=en_US"
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-set-up-Recurring-by-Mews-Payments-for-automated-monthly-charges-in-Mews-Operations?language=en_US"
         }
       ]
     },
     {
-      "title": "New Mews Terminals — Full Hardware Portfolio on Marketplace",
+      "title": "New Mews Terminal Hardware Portfolio (A1–A4)",
       "status": "ga",
       "date": "2026-06-08",
       "area": "Payments",
-      "summary": "Four new PCI PTS 6 certified terminal models (A1, A2, A3, A4, S1, S2) now available for purchase on the Mews Marketplace. Pre-configured and plug-and-play, covering front desk to unattended kiosk.",
+      "summary": "Four new PCI PTS 6 certified payment terminal models now available via Mews Marketplace — covering front desk, self-service, and fully unattended kiosk setups.",
       "pitch": "Mews now offers a complete payment terminal portfolio for every hospitality setup. Customers can order PCI PTS 6 certified terminals directly from the Mews Marketplace, with pre-configured hardware that works out of the box and supports everything from traditional front desks to self-service kiosks.",
       "segmentation": "Adyen customers only",
       "links": [
@@ -97,36 +43,17 @@
           "url": "https://mews.atlassian.net/wiki/spaces/FINTECH/pages/1349648458/PMK+Fintech+GTM+Focus+on+2026+Terminals+line-up+launch"
         },
         {
-          "label": "Tech Specs",
-          "url": "https://help.mews.com/s/article/Technical-specifications-for-Mews-Terminals?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Stronger Security Overview in Mews Operations",
-      "status": "ga",
-      "date": "2026-06-04",
-      "area": "Operations",
-      "summary": "Clearer security posture visibility with simplified security ratings, actionable recommendations, and refreshed scoring. Available to all admin users.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/stronger-security-with-a-clearer-security-overview-in-mews-operations-BHXcLEsZ"
-        },
-        {
           "label": "Help Article",
-          "url": "https://help.mews.com/s/article/Securing-your-Mews-Operations-user-accounts?language=en_US"
+          "url": "https://help.mews.com/s/article/get-a-quote-and-order-mews-terminals?language=en_US"
         }
       ]
     },
     {
-      "title": "Auto-Email Balanced Bills After Checkout",
+      "title": "Auto-Email Balanced Bills at Checkout",
       "status": "ga",
       "date": "2026-06-04",
       "area": "Billing & Accounting",
-      "summary": "Mews now automatically emails balanced bills closed during check-out, completing the end-to-end automated billing journey. Company-level opt-outs available.",
+      "summary": "Mews now automatically emails balanced bills closed during check-out — completing the full billing automation journey. Company-level opt-outs and flexible settings available.",
       "pitch": "Automated billing now goes all the way through to bill delivery. Once enabled, Mews can automatically email balanced bills that are closed during check-out, reducing manual tasks and helping guests and companies receive their final bill faster.",
       "segmentation": null,
       "links": [
@@ -141,12 +68,88 @@
       ]
     },
     {
-      "title": "Flexible Allowances — Per Night / Per Guest / Per Guest Per Night",
+      "title": "Upload Budget, Forecast & Historical Data in Mews BI",
+      "status": "ga",
+      "date": "2026-06-10",
+      "area": "BI & Analytics",
+      "summary": "Revenue managers can now upload planning data into Mews BI and compare it against actual performance in a single dashboard — no more manual exports and spreadsheet merging.",
+      "pitch": "If you're comparing performance against budgets or forecasts, you no longer need to export data and piece everything together manually. You can upload your planning data into Mews BI and see it alongside actual performance.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/upload-budget-forecast-and-historical-data-in-mews-business-intelligence-to-compare-performance-in-one-place-YVP2xLRq"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-upload-your-budget-forecast-and-historical-data-to-Mews-Business-Intelligence-Pro?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Support Cases Directly in Mews Operations",
+      "status": "ga",
+      "date": "2026-06-11",
+      "area": "Operations",
+      "summary": "Properties can now view, track, and reply to Mews support cases directly inside Mews Operations — no more inbox-switching. Admins see all property cases; standard users see their own.",
+      "pitch": "If you've ever had to dig through your inbox to find a reply from support, this changes that. Your support cases are now listed directly in Mews Operations, under the user menu.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/your-support-cases-now-directly-in-mews-operations"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/The-Support-cases-screen-in-Mews-Operations?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Export Event Products to Mews Operations (Multiple Times)",
+      "status": "ga",
+      "date": "2026-06-11",
+      "area": "Events & Groups",
+      "summary": "Event teams can now re-export products from Mews Events to Mews Operations as many times as needed when a quote changes — keeping billing aligned with final event details.",
+      "pitch": "Event details rarely stay the same from the first quote to the final invoice. Now, when a quote changes, you can export updated products to Mews Operations without starting over.",
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.events.mews.com/en/export-event-products-to-mews-operations-multiple-times"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/How-to-export-event-products-to-Mews-Operations-from-an-event-quote-in-Mews-Events?"
+        }
+      ]
+    },
+    {
+      "title": "Clearer Security Overview in Mews Operations",
+      "status": "ga",
+      "date": "2026-06-04",
+      "area": "Operations",
+      "summary": "Refreshed Security overview with simplified ratings, actionable recommendations, and updated scoring aligned with current standards.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Release Note",
+          "url": "https://releases.mews.com/en/stronger-security-with-a-clearer-security-overview-in-mews-operations-BHXcLEsZ"
+        },
+        {
+          "label": "Help Article",
+          "url": "https://help.mews.com/s/article/Securing-your-Mews-Operations-user-accounts?language=en_US"
+        }
+      ]
+    },
+    {
+      "title": "Flexible Allowances (per night / per guest / per guest per night)",
       "status": "ga",
       "date": "2026-06-03",
       "area": "Operations",
-      "summary": "Allowances now support per night, per guest, or per guest per night configurations. Teams can also edit or delete allowances. Reduces manual workarounds for corporate meal credits and complex packages.",
-      "pitch": "Allowances are now a much more powerful and flexible tool for selling products and services. Whether you're offering daily dining credits, managing long-stay corporate agreements, or updating guest entitlements, you can configure and maintain allowances in a way that matches your property's real-world operations.",
+      "summary": "Allowances now support per-night, per-guest, or per-guest-per-night configuration, plus the ability to edit or delete allowances — for corporate credits, packages, and complex upsell strategies.",
+      "pitch": "Allowances are now a much more powerful and flexible tool. Whether you're offering daily dining credits, managing long-stay corporate agreements, or updating guest entitlements, you can configure and maintain allowances in a way that matches your property's real-world operations.",
       "segmentation": "Spain only",
       "links": [
         {
@@ -160,51 +163,134 @@
       ]
     },
     {
-      "title": "New Navigation Shell — Redesigned Side Menu",
-      "status": "radar",
-      "date": null,
-      "area": "Operations",
-      "summary": "Redesigned side navigation now in Demo for internal testing. New shell architecture for the Mews OS layout. No GA date confirmed yet.",
+      "title": "Invoice Automation",
+      "status": "coming_soon",
+      "date": "2026-06-12",
+      "area": "Billing & Accounting",
+      "summary": "Automatically issue and send invoices at checkout via Billing Automation — no more manual invoice issuance at the front desk. Blitz testing completed June 12; pilot approaching.",
       "pitch": null,
       "segmentation": null,
       "links": [
         {
-          "label": "Design Vision (Loom)",
-          "url": "https://www.loom.com/share/9dc85368ad2044a88bd465ab67f85489"
+          "label": "Confluence (Blitz Plan)",
+          "url": "https://mews.atlassian.net/wiki/spaces/FINTECH/pages/2103476354/Blitz+Testing+Plan+Invoice+Automation"
         }
       ]
     },
     {
-      "title": "Semantic Layer Learning — AI Agent Memory & Guest Preferences",
-      "status": "radar",
-      "date": null,
-      "area": "AI & Agents",
-      "summary": "Early R&D: the Intelligence team is building learning capabilities into the Mews semantic layer — capturing guest preferences, front-desk feedback, and revenue manager inputs to personalise AI agent behaviour over time.",
+      "title": "Customer-Led Digital Key Onboarding & Kiosk Per-Guest Keys",
+      "status": "coming_soon",
+      "date": "2026-06-11",
+      "area": "Guest Journey / MMP",
+      "summary": "Guests self-onboard digital keys; kiosks will support per-guest key issuance. Announced in FOH TOI for the next 30-day window.",
       "pitch": null,
       "segmentation": null,
       "links": [
         {
-          "label": "Technical Write-up",
-          "url": "https://mews.atlassian.net/wiki/x/cwOHdQ"
+          "label": "TOI Loom (6:34)",
+          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=394"
+        }
+      ]
+    },
+    {
+      "title": "Mews Events: Business on the Books Report & Flexible Posting",
+      "status": "coming_soon",
+      "date": "2026-06-11",
+      "area": "Events & Groups",
+      "summary": "Business on the Books reporting for pipeline visibility plus flexible posting in Mews Events. In the FOH 30-day pipeline.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "TOI Loom (10:08)",
+          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=608"
+        }
+      ]
+    },
+    {
+      "title": "HMS Smart Auto-Assign for Work Allocation",
+      "status": "coming_soon",
+      "date": "2026-06-11",
+      "area": "Housekeeping",
+      "summary": "Housekeeping Management System gains smart auto-assign for work allocation. Moving into closed beta per FOH TOI.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "TOI Loom (14:38)",
+          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=878"
+        }
+      ]
+    },
+    {
+      "title": "Groups: Availability Block Reports, Rule Inheritance & Multiple Occupancies",
+      "status": "coming_soon",
+      "date": "2026-06-11",
+      "area": "Events & Groups",
+      "summary": "Groups gains availability block reports, rule inheritance, multiple occupancy support, and improved merge behaviour — in the upcoming 30-day FOH window.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "TOI Loom (25:15)",
+          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=1515"
+        }
+      ]
+    },
+    {
+      "title": "Reservations Module Redesign",
+      "status": "coming_soon",
+      "date": "2026-06-11",
+      "area": "Operations",
+      "summary": "Full redesign of the Reservations module with phased rollout. Timeline detailed in FOH TOI June 2026.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "TOI Loom (25:15)",
+          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=1515"
+        }
+      ]
+    },
+    {
+      "title": "AI Bug Bot — Autonomous End-to-End Production Bug Fixing",
+      "status": "radar",
+      "date": "2026-06-11",
+      "area": "AI & Agents",
+      "summary": "Agentic pipeline (Moxly + Claude) takes production errors from Coralogix triage to a validated fix PR with no human in the loop. First real bug fixed unattended: AGT-1690 (RedisClusterException). Multi-repo roadmap ahead.",
+      "pitch": null,
+      "segmentation": "Currently scoped to agt-core; multi-repo on roadmap",
+      "links": [
+        {
+          "label": "Epic AGT-855",
+          "url": "https://mews.atlassian.net/browse/AGT-855"
         },
         {
-          "label": "Data Sharing Framework",
-          "url": "https://mews.atlassian.net/wiki/x/jIT3XQ"
+          "label": "First Bug AGT-1690",
+          "url": "https://mews.atlassian.net/browse/AGT-1690"
+        },
+        {
+          "label": "GitHub PR #654",
+          "url": "https://github.com/MewsSystems/agt-core/pull/654"
         }
       ]
     },
     {
-      "title": "Mews Navigator — AI-Native Product OS Prototype",
+      "title": "Mews Identity — IdP for the Full Hospitality Stack",
       "status": "radar",
-      "date": null,
+      "date": "2026-06-11",
       "area": "AI & Agents",
-      "summary": "Internal working prototype exploring what an AI-native Mews could look like: directionality for builders, outcome-focused metrics, and no-code shipping for non-engineers. A conversation starter — signals long-term product direction.",
+      "summary": "Long-term vision: Mews as the identity provider for hotel staff across the entire hospitality tech stack beyond just Mews products. Two tracks: Log in with Mews SSO + email provisioning. Discovery phase underway.",
       "pitch": null,
       "segmentation": null,
       "links": [
         {
-          "label": "Loom Walkthrough",
-          "url": "https://www.loom.com/share/a39633974b9d44d2b2698ef0c837977f"
+          "label": "Show & Tell Loom",
+          "url": "https://www.loom.com/share/c2f01132776c4a42ba8a7661117548f7"
+        },
+        {
+          "label": "Vision Doc",
+          "url": "https://mews.atlassian.net/wiki/x/RICabg"
         }
       ]
     }
