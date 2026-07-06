@@ -1,298 +1,171 @@
 {
-  "period": "June 1 – June 15, 2026",
-  "refreshed": "2026-06-15",
+  "period": "Late June – Early July 2026",
+  "refreshed": "2026-07-06",
   "items": [
     {
-      "title": "Recurring Payments (SEPA & Card)",
+      "title": "Price Level Adjustments — Mews RMS",
       "status": "ga",
-      "date": "2026-06-04",
-      "area": "Payments",
-      "summary": "New feature enabling automated monthly charges via SEPA Direct Debit or credit card — designed for long-stay, co-living, memberships, and recurring billing. Set once, Mews handles the rest.",
-      "pitch": "Recurring Payments lets properties automate monthly guest charges directly in Mews using SEPA Direct Debit or credit cards. Instead of manually chasing repeat payments, teams can set up a payment plan once and let Mews handle the rest — reducing admin effort, improving payment reliability, and creating more predictable revenue.",
+      "date": "2026-07-03",
+      "area": "RMS",
+      "summary": "Revenue managers can now apply % price level adjustments across all room types or specific categories, for all future dates or a custom range, directly from the Pricing section in RMS.",
+      "pitch": "Price level adjustments bring a faster, more flexible way to manage recommendations in Mews RMS. Set a percentage, pick your scope, choose your date range, and you are done.",
       "segmentation": null,
       "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/meet-your-new-way-to-handle-repeat-payments-recurring-payments-2iqtl50m"
-        },
-        {
-          "label": "Confluence",
-          "url": "https://mews.atlassian.net/wiki/x/3IPyKw"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-set-up-Recurring-by-Mews-Payments-for-automated-monthly-charges-in-Mews-Operations?language=en_US"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/take-control-of-your-price-levels-in-mews-rms"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1803"},
+        {"label": "Help article", "url": "https://help.mews.com/s/article/How-to-adjust-price-levels-in-Mews-RMS?language=en_US"}
       ]
     },
     {
-      "title": "New Mews Terminal Hardware Portfolio (A1–A4)",
+      "title": "Central Accounting Categories — Multi-Property",
       "status": "ga",
-      "date": "2026-06-08",
-      "area": "Payments",
-      "summary": "Four new PCI PTS 6 certified payment terminal models now available via Mews Marketplace — covering front desk, self-service, and fully unattended kiosk setups.",
-      "pitch": "Mews now offers a complete payment terminal portfolio for every hospitality setup. Customers can order PCI PTS 6 certified terminals directly from the Mews Marketplace, with pre-configured hardware that works out of the box and supports everything from traditional front desks to self-service kiosks.",
-      "segmentation": "Adyen customers only",
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/new-mews-terminals-built-for-every-guest-journey-now-available-for-purchase-on-the-mews-marketplace"
-        },
-        {
-          "label": "Confluence",
-          "url": "https://mews.atlassian.net/wiki/spaces/FINTECH/pages/1349648458/PMK+Fintech+GTM+Focus+on+2026+Terminals+line-up+launch"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/get-a-quote-and-order-mews-terminals?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Auto-Email Balanced Bills at Checkout",
-      "status": "ga",
-      "date": "2026-06-04",
+      "date": "2026-07-02",
       "area": "Billing & Accounting",
-      "summary": "Mews now automatically emails balanced bills closed during check-out — completing the full billing automation journey. Company-level opt-outs and flexible settings available.",
-      "pitch": "Automated billing now goes all the way through to bill delivery. Once enabled, Mews can automatically email balanced bills that are closed during check-out, reducing manual tasks and helping guests and companies receive their final bill faster.",
+      "summary": "Accounting categories can now be defined once at portfolio level and assigned across all properties. Updates propagate automatically, replacing per-property setup.",
+      "pitch": "Define once, assign everywhere. Central accounting categories in Mews Multi-Property bring consistency to your portfolio financial reporting with no extra effort.",
       "segmentation": null,
       "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/email-balanced-bills-automatically-after-checkout-in-mews-operations-YpkibjJ2"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-automatically-send-bills-during-check-out-in-Mews-Operations?language=en_US"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/your-accounting-categories-now-central-in-mews-multi_property-cTVkhi43"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1524"}
       ]
     },
     {
-      "title": "Upload Budget, Forecast & Historical Data in Mews BI",
+      "title": "Better Receipts + Payout Visibility",
       "status": "ga",
-      "date": "2026-06-10",
-      "area": "BI & Analytics",
-      "summary": "Revenue managers can now upload planning data into Mews BI and compare it against actual performance in a single dashboard — no more manual exports and spreadsheet merging.",
-      "pitch": "If you're comparing performance against budgets or forecasts, you no longer need to export data and piece everything together manually. You can upload your planning data into Mews BI and see it alongside actual performance.",
+      "date": "2026-06-30",
+      "area": "Payments",
+      "summary": "Payment receipts now print with property logo, name, and address. The payment detail panel shows payout ID, status, and last updated date.",
+      "pitch": "Receipts now look the part with your property branding, and payout traceability is built right into the payment detail panel. Less hunting, more confidence.",
       "segmentation": null,
       "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/upload-budget-forecast-and-historical-data-in-mews-business-intelligence-to-compare-performance-in-one-place-YVP2xLRq"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-upload-your-budget-forecast-and-historical-data-to-Mews-Business-Intelligence-Pro?language=en_US"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/better-receipts-more-payout-visibility-in-mews-operations-VoPEzCyR"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1751"}
       ]
     },
     {
-      "title": "Support Cases Directly in Mews Operations",
+      "title": "Ledger Manual Export (Deposit + Guest Ledger)",
       "status": "ga",
-      "date": "2026-06-11",
-      "area": "Operations",
-      "summary": "Properties can now view, track, and reply to Mews support cases directly inside Mews Operations — no more inbox-switching. Admins see all property cases; standard users see their own.",
-      "pitch": "If you've ever had to dig through your inbox to find a reply from support, this changes that. Your support cases are now listed directly in Mews Operations, under the user menu.",
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/your-support-cases-now-directly-in-mews-operations"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/The-Support-cases-screen-in-Mews-Operations?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Export Event Products to Mews Operations (Multiple Times)",
-      "status": "ga",
-      "date": "2026-06-11",
-      "area": "Events & Groups",
-      "summary": "Event teams can now re-export products from Mews Events to Mews Operations as many times as needed when a quote changes — keeping billing aligned with final event details.",
-      "pitch": "Event details rarely stay the same from the first quote to the final invoice. Now, when a quote changes, you can export updated products to Mews Operations without starting over.",
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.events.mews.com/en/export-event-products-to-mews-operations-multiple-times"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-export-event-products-to-Mews-Operations-from-an-event-quote-in-Mews-Events?"
-        }
-      ]
-    },
-    {
-      "title": "Clearer Security Overview in Mews Operations",
-      "status": "ga",
-      "date": "2026-06-04",
-      "area": "Operations",
-      "summary": "Refreshed Security overview with simplified ratings, actionable recommendations, and updated scoring aligned with current standards.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Release Note",
-          "url": "https://releases.mews.com/en/stronger-security-with-a-clearer-security-overview-in-mews-operations-BHXcLEsZ"
-        },
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/Securing-your-Mews-Operations-user-accounts?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Flexible Allowances (per night / per guest / per guest per night)",
-      "status": "ga",
-      "date": "2026-06-03",
-      "area": "Operations",
-      "summary": "Allowances now support per-night, per-guest, or per-guest-per-night configuration, plus the ability to edit or delete allowances — for corporate credits, packages, and complex upsell strategies.",
-      "pitch": "Allowances are now a much more powerful and flexible tool. Whether you're offering daily dining credits, managing long-stay corporate agreements, or updating guest entitlements, you can configure and maintain allowances in a way that matches your property's real-world operations.",
-      "segmentation": "Spain only",
-      "links": [
-        {
-          "label": "Help Article",
-          "url": "https://help.mews.com/s/article/How-to-create-an-allowance-in-Mews-Operations?language=en_US"
-        },
-        {
-          "label": "FAQs",
-          "url": "https://help.mews.com/s/article/FAQs-for-allowances?language=en_US"
-        }
-      ]
-    },
-    {
-      "title": "Invoice Automation",
-      "status": "coming_soon",
-      "date": "2026-06-12",
+      "date": "2026-06-29",
       "area": "Billing & Accounting",
-      "summary": "Automatically issue and send invoices at checkout via Billing Automation — no more manual invoice issuance at the front desk. Blitz testing completed June 12; pilot approaching.",
-      "pitch": null,
+      "summary": "Staff can now export the Deposit and Guest Ledger directly from the report page. Active filters carry through to the export in Excel, JSON, or CSV format.",
+      "pitch": "The Deposit and Guest Ledgers now work the same way the City Ledger already does. Filter your data, export it in the format you need.",
       "segmentation": null,
       "links": [
-        {
-          "label": "Confluence (Blitz Plan)",
-          "url": "https://mews.atlassian.net/wiki/spaces/FINTECH/pages/2103476354/Blitz+Testing+Plan+Invoice+Automation"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/see-it-filter-it-export-it-your-ledger-data-your-way"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1494"}
       ]
     },
     {
-      "title": "Customer-Led Digital Key Onboarding & Kiosk Per-Guest Keys",
-      "status": "coming_soon",
-      "date": "2026-06-11",
-      "area": "Guest Journey / MMP",
-      "summary": "Guests self-onboard digital keys; kiosks will support per-guest key issuance. Announced in FOH TOI for the next 30-day window.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "TOI Loom (6:34)",
-          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=394"
-        }
-      ]
-    },
-    {
-      "title": "Mews Events: Business on the Books Report & Flexible Posting",
-      "status": "coming_soon",
-      "date": "2026-06-11",
-      "area": "Events & Groups",
-      "summary": "Business on the Books reporting for pipeline visibility plus flexible posting in Mews Events. In the FOH 30-day pipeline.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "TOI Loom (10:08)",
-          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=608"
-        }
-      ]
-    },
-    {
-      "title": "HMS Smart Auto-Assign for Work Allocation",
-      "status": "coming_soon",
-      "date": "2026-06-11",
-      "area": "Housekeeping",
-      "summary": "Housekeeping Management System gains smart auto-assign for work allocation. Moving into closed beta per FOH TOI.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "TOI Loom (14:38)",
-          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=878"
-        }
-      ]
-    },
-    {
-      "title": "Groups: Availability Block Reports, Rule Inheritance & Multiple Occupancies",
-      "status": "coming_soon",
-      "date": "2026-06-11",
-      "area": "Events & Groups",
-      "summary": "Groups gains availability block reports, rule inheritance, multiple occupancy support, and improved merge behaviour — in the upcoming 30-day FOH window.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "TOI Loom (25:15)",
-          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=1515"
-        }
-      ]
-    },
-    {
-      "title": "Reservations Module Redesign",
-      "status": "coming_soon",
-      "date": "2026-06-11",
+      "title": "Checkout from Closed Bill",
+      "status": "ga",
+      "date": "2026-06-29",
       "area": "Operations",
-      "summary": "Full redesign of the Reservations module with phased rollout. Timeline detailed in FOH TOI June 2026.",
-      "pitch": null,
-      "segmentation": null,
+      "summary": "Staff can now check out guests directly from a closed bill with no screen switching. Supports batch checkout of up to 10 reservations.",
+      "pitch": "Closing a bill and checking out are naturally sequential actions, and now they happen in the same place.",
+      "segmentation": "NL first — broader rollout coming soon",
       "links": [
-        {
-          "label": "TOI Loom (25:15)",
-          "url": "https://www.loom.com/share/66d989e7244248f1ab69122d1fa0a76b?t=1515"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/now-check-out-guests-directly-after-closing-a-bill-tpxm5b5q"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1670"}
       ]
     },
     {
-      "title": "AI Bug Bot — Autonomous End-to-End Production Bug Fixing",
-      "status": "radar",
-      "date": "2026-06-11",
-      "area": "AI & Agents",
-      "summary": "Agentic pipeline (Moxly + Claude) takes production errors from Coralogix triage to a validated fix PR with no human in the loop. First real bug fixed unattended: AGT-1690 (RedisClusterException). Multi-repo roadmap ahead.",
-      "pitch": null,
-      "segmentation": "Currently scoped to agt-core; multi-repo on roadmap",
-      "links": [
-        {
-          "label": "Epic AGT-855",
-          "url": "https://mews.atlassian.net/browse/AGT-855"
-        },
-        {
-          "label": "First Bug AGT-1690",
-          "url": "https://mews.atlassian.net/browse/AGT-1690"
-        },
-        {
-          "label": "GitHub PR #654",
-          "url": "https://github.com/MewsSystems/agt-core/pull/654"
-        }
-      ]
-    },
-    {
-      "title": "Mews Identity — IdP for the Full Hospitality Stack",
-      "status": "radar",
-      "date": "2026-06-11",
-      "area": "AI & Agents",
-      "summary": "Long-term vision: Mews as the identity provider for hotel staff across the entire hospitality tech stack beyond just Mews products. Two tracks: Log in with Mews SSO + email provisioning. Discovery phase underway.",
+      "title": "Account Menu Redesign — Navigation",
+      "status": "ga",
+      "date": "2026-07-01",
+      "area": "Operations",
+      "summary": "Account and profile options moved to a dedicated menu in the bottom-left corner of Mews Operations. For Multi-Property accounts, this menu is now separate from the property selector.",
       "pitch": null,
       "segmentation": null,
       "links": [
-        {
-          "label": "Show & Tell Loom",
-          "url": "https://www.loom.com/share/c2f01132776c4a42ba8a7661117548f7"
-        },
-        {
-          "label": "Vision Doc",
-          "url": "https://mews.atlassian.net/wiki/x/RICabg"
-        }
+        {"label": "Release note", "url": "https://releases.mews.com/en/your-account-menu-is-getting-its-own-space-in-mews-operations-KduxDA4I"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1749"}
       ]
+    },
+    {
+      "title": "Improved Navigation Menu — Mews Operations",
+      "status": "ga",
+      "date": "2026-06-24",
+      "area": "Operations",
+      "summary": "Navigation redesigned with always-visible icons, highlighted active location indicator, and cleaner layout. Staff can move faster with fewer clicks.",
+      "pitch": "A small change with a big daily impact — staff always know where they are in Mews and can jump between sections without hunting.",
+      "segmentation": null,
+      "links": [
+        {"label": "Release note", "url": "https://releases.mews.com/en/always-know-where-you-are-with-the-improved-mews-operations-navigation-menu-QElRqBTM"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1681"}
+      ]
+    },
+    {
+      "title": "Business on the Books Report — Mews Events",
+      "status": "ga",
+      "date": "2026-06-23",
+      "area": "Events & Groups",
+      "summary": "New report giving event managers instant visibility into forward bookings and revenue by quote status (Confirmed, Optional, Inquired). Includes charts, breakdown table, date comparison, and Excel export.",
+      "pitch": "A live, structured view of what is confirmed, optional, and inquired, with revenue broken down the way they think about it.",
+      "segmentation": null,
+      "links": [
+        {"label": "Release note", "url": "https://releases.events.mews.com/en/everything-on-the-books-nothing-missed-introducing-business-on-the-books-in-mews-events-x92PprfU"},
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1611"},
+        {"label": "Help article", "url": "https://help.mews.com/s/article/The-Business-on-the-Books-report-in-Mews-Events"}
+      ]
+    },
+    {
+      "title": "Front of House Performance Improvements",
+      "status": "ga",
+      "date": "2026-06-25",
+      "area": "Operations",
+      "summary": "Long stay reservations now create in ~3s (was timing out — 10x faster for large customers). Bill capacity doubled from 6K to 12K items. Peak concurrency success rates: 0% to 100% for reservations.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {"label": "Reservations report", "url": "https://mews.atlassian.net/wiki/spaces/FOHL/pages/2204205168/Reservation+creation+from+timeouts+to+~3+seconds."},
+        {"label": "Billing report", "url": "https://mews.atlassian.net/wiki/spaces/FOHL/pages/2202763372/Bill+close+capacity+doubled+to+12+000+items."}
+      ]
+    },
+    {
+      "title": "Multicurrency by Mews Payments",
+      "status": "coming_soon",
+      "date": "2026-07-27",
+      "area": "Payments",
+      "summary": "Guests can view and pay in their preferred currency via Payment Links or the Mews Booking Engine. Transparent conversion rates and fees. Terminal support coming later.",
+      "pitch": "Guests pick their currency at checkout — you earn revenue on each multicurrency transaction. Online first, terminals to follow.",
+      "segmentation": "Opt-in — EU Adyen customers only (~150 properties) — Wave 1",
+      "links": [
+        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1516"},
+        {"label": "Help article", "url": "https://help.mews.com/s/article/How-to-use-Multicurrency-by-Mews-Payments-with-Online-Payments"},
+        {"label": "Campaign page", "url": "http://mews.com/en/campaigns/multicurrency"}
+      ]
+    },
+    {
+      "title": "New Configuration Section — Navigation",
+      "status": "radar",
+      "date": null,
+      "area": "Operations",
+      "summary": "Internal prototype testing underway. Separates setup-related navigation from day-to-day operations. Property-level only first; MMP later. Not yet released.",
+      "pitch": null,
+      "segmentation": "Internal prototype only",
+      "links": []
+    },
+    {
+      "title": "Mews Events — Native Rebuild",
+      "status": "radar",
+      "date": null,
+      "area": "Events & Groups",
+      "summary": "Events being rebuilt natively inside the PMS. Current Events enters maintenance mode immediately — no new features, critical fixes only, no longer being sold. New native Events targeted late Q4 2026.",
+      "pitch": null,
+      "segmentation": "Do NOT communicate to customers yet",
+      "links": [
+        {"label": "Internal FAQ", "url": "https://mews.atlassian.net/wiki/x/eAIgg"}
+      ]
+    },
+    {
+      "title": "SSO Orchestrator v3 — Internal Tool",
+      "status": "radar",
+      "date": "2026-07-03",
+      "area": "AI & Agents",
+      "summary": "Agentic Slack-based pipeline provisioning SSO portfolios end-to-end. ~1/3 of requests now complete with zero interaction. Signals improving provisioning reliability for customers.",
+      "pitch": null,
+      "segmentation": "Internal only",
+      "links": []
     }
   ]
 }
