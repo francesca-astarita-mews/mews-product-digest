@@ -1,170 +1,93 @@
 {
-  "period": "Late June – Early July 2026",
-  "refreshed": "2026-07-06",
+  "period": "Early – Mid September 2026",
+  "refreshed": "2026-09-24",
   "items": [
     {
-      "title": "Price Level Adjustments — Mews RMS",
-      "status": "ga",
-      "date": "2026-07-03",
-      "area": "RMS",
-      "summary": "Revenue managers can now apply % price level adjustments across all room types or specific categories, for all future dates or a custom range, directly from the Pricing section in RMS.",
-      "pitch": "Price level adjustments bring a faster, more flexible way to manage recommendations in Mews RMS. Set a percentage, pick your scope, choose your date range, and you are done.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/take-control-of-your-price-levels-in-mews-rms"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1803"},
-        {"label": "Help article", "url": "https://help.mews.com/s/article/How-to-adjust-price-levels-in-Mews-RMS?language=en_US"}
-      ]
-    },
-    {
-      "title": "Central Accounting Categories — Multi-Property",
-      "status": "ga",
-      "date": "2026-07-02",
-      "area": "Billing & Accounting",
-      "summary": "Accounting categories can now be defined once at portfolio level and assigned across all properties. Updates propagate automatically, replacing per-property setup.",
-      "pitch": "Define once, assign everywhere. Central accounting categories in Mews Multi-Property bring consistency to your portfolio financial reporting with no extra effort.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/your-accounting-categories-now-central-in-mews-multi_property-cTVkhi43"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1524"}
-      ]
-    },
-    {
-      "title": "Better Receipts + Payout Visibility",
-      "status": "ga",
-      "date": "2026-06-30",
-      "area": "Payments",
-      "summary": "Payment receipts now print with property logo, name, and address. The payment detail panel shows payout ID, status, and last updated date.",
-      "pitch": "Receipts now look the part with your property branding, and payout traceability is built right into the payment detail panel. Less hunting, more confidence.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/better-receipts-more-payout-visibility-in-mews-operations-VoPEzCyR"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1751"}
-      ]
-    },
-    {
-      "title": "Ledger Manual Export (Deposit + Guest Ledger)",
-      "status": "ga",
-      "date": "2026-06-29",
-      "area": "Billing & Accounting",
-      "summary": "Staff can now export the Deposit and Guest Ledger directly from the report page. Active filters carry through to the export in Excel, JSON, or CSV format.",
-      "pitch": "The Deposit and Guest Ledgers now work the same way the City Ledger already does. Filter your data, export it in the format you need.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/see-it-filter-it-export-it-your-ledger-data-your-way"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1494"}
-      ]
-    },
-    {
-      "title": "Checkout from Closed Bill",
-      "status": "ga",
-      "date": "2026-06-29",
-      "area": "Operations",
-      "summary": "Staff can now check out guests directly from a closed bill with no screen switching. Supports batch checkout of up to 10 reservations.",
-      "pitch": "Closing a bill and checking out are naturally sequential actions, and now they happen in the same place.",
-      "segmentation": "NL first — broader rollout coming soon",
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/now-check-out-guests-directly-after-closing-a-bill-tpxm5b5q"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1670"}
-      ]
-    },
-    {
-      "title": "Account Menu Redesign — Navigation",
-      "status": "ga",
-      "date": "2026-07-01",
-      "area": "Operations",
-      "summary": "Account and profile options moved to a dedicated menu in the bottom-left corner of Mews Operations. For Multi-Property accounts, this menu is now separate from the property selector.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/your-account-menu-is-getting-its-own-space-in-mews-operations-KduxDA4I"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1749"}
-      ]
-    },
-    {
-      "title": "Improved Navigation Menu — Mews Operations",
-      "status": "ga",
-      "date": "2026-06-24",
-      "area": "Operations",
-      "summary": "Navigation redesigned with always-visible icons, highlighted active location indicator, and cleaner layout. Staff can move faster with fewer clicks.",
-      "pitch": "A small change with a big daily impact — staff always know where they are in Mews and can jump between sections without hunting.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.mews.com/en/always-know-where-you-are-with-the-improved-mews-operations-navigation-menu-QElRqBTM"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1681"}
-      ]
-    },
-    {
-      "title": "Business on the Books Report — Mews Events",
-      "status": "ga",
-      "date": "2026-06-23",
-      "area": "Events & Groups",
-      "summary": "New report giving event managers instant visibility into forward bookings and revenue by quote status (Confirmed, Optional, Inquired). Includes charts, breakdown table, date comparison, and Excel export.",
-      "pitch": "A live, structured view of what is confirmed, optional, and inquired, with revenue broken down the way they think about it.",
-      "segmentation": null,
-      "links": [
-        {"label": "Release note", "url": "https://releases.events.mews.com/en/everything-on-the-books-nothing-missed-introducing-business-on-the-books-in-mews-events-x92PprfU"},
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1611"},
-        {"label": "Help article", "url": "https://help.mews.com/s/article/The-Business-on-the-Books-report-in-Mews-Events"}
-      ]
-    },
-    {
-      "title": "Front of House Performance Improvements",
-      "status": "ga",
-      "date": "2026-06-25",
-      "area": "Operations",
-      "summary": "Long stay reservations now create in ~3s (was timing out — 10x faster for large customers). Bill capacity doubled from 6K to 12K items. Peak concurrency success rates: 0% to 100% for reservations.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {"label": "Reservations report", "url": "https://mews.atlassian.net/wiki/spaces/FOHL/pages/2204205168/Reservation+creation+from+timeouts+to+~3+seconds."},
-        {"label": "Billing report", "url": "https://mews.atlassian.net/wiki/spaces/FOHL/pages/2202763372/Bill+close+capacity+doubled+to+12+000+items."}
-      ]
-    },
-    {
-      "title": "Multicurrency by Mews Payments",
+      "title": "Trial Balance reporting by week, month, or any period (Mews Operations)",
       "status": "coming_soon",
-      "date": "2026-07-27",
-      "area": "Payments",
-      "summary": "Guests can view and pay in their preferred currency via Payment Links or the Mews Booking Engine. Transparent conversion rates and fees. Terminal support coming later.",
-      "pitch": "Guests pick their currency at checkout — you earn revenue on each multicurrency transaction. Online first, terminals to follow.",
-      "segmentation": "Opt-in — EU Adyen customers only (~150 properties) — Wave 1",
+      "date": "2026-09-16",
+      "area": "Billing & Accounting",
+      "summary": "The Trial Balance moves from daily-only Excel/PDF exports into a live, interactive report inside Mews, with selectable date ranges and export to Excel, CSV, or PDF.",
+      "pitch": null,
+      "segmentation": "US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico",
       "links": [
-        {"label": "Jira", "url": "https://mews.atlassian.net/browse/TW-1516"},
-        {"label": "Help article", "url": "https://help.mews.com/s/article/How-to-use-Multicurrency-by-Mews-Payments-with-Online-Payments"},
-        {"label": "Campaign page", "url": "http://mews.com/en/campaigns/multicurrency"}
+        { "label": "Jira TW-1807", "url": "https://mews.atlassian.net/browse/TW-1807" },
+        { "label": "Coming soon page", "url": "https://releases.mews.com/en/reconcile-your-books-faster-view-your-trial-balance-by-week-month-or-any-period-in-mews-operations-OvyRQzzv" }
       ]
     },
     {
-      "title": "New Configuration Section — Navigation",
+      "title": "Manage languages and services on Central products with more flexibility (Mews Multi-Property)",
+      "status": "ga",
+      "date": "2026-09-15",
+      "area": "Guest Journey / MMP",
+      "summary": "Central products can now support multiple languages that automatically propagate to local-level products, and Central/local-level products can be connected via a Central service instead of a service key.",
+      "pitch": "Central products just got more flexible — multiple languages roll down to every local property automatically, and linking products no longer means juggling service keys.",
+      "segmentation": "Multi-property users only",
+      "links": [
+        { "label": "Jira TW-2348", "url": "https://mews.atlassian.net/browse/TW-2348" },
+        { "label": "Help article", "url": "https://help.mews.com/s/article/How-to-create-central-products-in-Mews-Multi-Property" }
+      ]
+    },
+    {
+      "title": "Automate financial reporting with scheduled exports for deposit and guest ledgers (Mews Operations)",
+      "status": "ga",
+      "date": "2026-09-15",
+      "area": "Billing & Accounting",
+      "summary": "Properties can set up recurring, scheduled exports for the deposit and guest ledgers with custom frequency and automatic delivery, instead of running exports manually each time.",
+      "pitch": "No more remembering to pull deposit and guest ledger exports by hand — set the schedule once and the data lands automatically, right when finance needs it for reconciliation.",
+      "segmentation": null,
+      "links": [
+        { "label": "Release note", "url": "https://releases.mews.com/en/automate-your-financial-reporting-with-scheduled-exports-for-the-deposit-and-guest-ledgers-in-mews-operations" },
+        { "label": "Jira TW-2226", "url": "https://mews.atlassian.net/browse/TW-2226" },
+        { "label": "Help article", "url": "https://help.mews.com/s/article/How-to-schedule-exports-for-the-Deposit-ledger-in-Mews-Operations" }
+      ]
+    },
+    {
+      "title": "Ancillary revenue estimates in Mews RMS",
+      "status": "ga",
+      "date": "2026-09-14",
+      "area": "RMS",
+      "summary": "Properties can configure Ancillary revenue estimates in Mews RMS, recording typical guest spend beyond the room (dining, spa, etc.), which RMS now factors into rate recommendations alongside room rate.",
+      "pitch": "Properties already earn real money from dining, spa, and other on-property spend — this lets that spend inform the room rate itself. Position it as sharper pricing intelligence, not a new upsell feature.",
+      "segmentation": null,
+      "links": [
+        { "label": "Release note", "url": "https://releases.mews.com/en/price-for-what-guests-really-spend-not-just-their-room-with-ancillary-revenue-estimates-in-mews-rms" },
+        { "label": "Jira TW-2359", "url": "https://mews.atlassian.net/browse/TW-2359" },
+        { "label": "Help article", "url": "https://help.mews.com/s/article/How-to-configure-ancillary-revenue-estimates-in-Mews-RMS?language=en_US" }
+      ]
+    },
+    {
+      "title": "Ledger Activity Report focused on meaningful movements (Mews Operations)",
+      "status": "ga",
+      "date": "2026-09-08",
+      "area": "Billing & Accounting",
+      "summary": "The Ledger Activity Report now hides self-balancing postings that net to zero, groups remaining entries by source item, and gives every 0% VAT posting its own entry in the tax ledger.",
+      "pitch": "Frame it as a clarity upgrade to the Ledger Activity Report — meaningful movements are easier to find (grouped by item, noise removed), and the tax audit trail is now fully complete for 0% VAT postings.",
+      "segmentation": null,
+      "links": [
+        { "label": "Release note", "url": "https://releases.mews.com/en/a-ledger-activity-report-focused-on-meaningful-movements-in-mews-operations-KZ1u8gfQ" },
+        { "label": "Jira TW-2299", "url": "https://mews.atlassian.net/browse/TW-2299" },
+        { "label": "Help article", "url": "https://help.mews.com/s/article/The-Ledger-activity-report-in-Mews-Operations?language=en_US" }
+      ]
+    },
+    {
+      "title": "Competitor pricing teaser for non-RMS properties (Revenue > Overview)",
       "status": "radar",
-      "date": null,
-      "area": "Operations",
-      "summary": "Internal prototype testing underway. Separates setup-related navigation from day-to-day operations. Property-level only first; MMP later. Not yet released.",
+      "date": "2026-09-08",
+      "area": "RMS",
+      "summary": "Non-RMS properties viewing Revenue > Overview now see a competitor pricing teaser sitting exactly where the real RMS widget lives, demonstrating RMS value in-product rather than via banner or email. Shared internally in #rnd as a template for surfacing hidden capabilities.",
       "pitch": null,
-      "segmentation": "Internal prototype only",
+      "segmentation": "Shown to non-RMS properties only (~1.5k weekly active enterprises hit that page)",
       "links": []
     },
     {
-      "title": "Mews Events — Native Rebuild",
+      "title": "Flexkeeping now preferred housekeeping solution for all of Accor",
       "status": "radar",
-      "date": null,
-      "area": "Events & Groups",
-      "summary": "Events being rebuilt natively inside the PMS. Current Events enters maintenance mode immediately — no new features, critical fixes only, no longer being sold. New native Events targeted late Q4 2026.",
+      "date": "2026-09-09",
+      "area": "Housekeeping",
+      "summary": "Flexkeeping (Mews housekeeping solution) has become the preferred housekeeping solution across all of Accor — shared internally in #rnd as a milestone win, no formal release note yet.",
       "pitch": null,
-      "segmentation": "Do NOT communicate to customers yet",
-      "links": [
-        {"label": "Internal FAQ", "url": "https://mews.atlassian.net/wiki/x/eAIgg"}
-      ]
-    },
-    {
-      "title": "SSO Orchestrator v3 — Internal Tool",
-      "status": "radar",
-      "date": "2026-07-03",
-      "area": "AI & Agents",
-      "summary": "Agentic Slack-based pipeline provisioning SSO portfolios end-to-end. ~1/3 of requests now complete with zero interaction. Signals improving provisioning reliability for customers.",
-      "pitch": null,
-      "segmentation": "Internal only",
+      "segmentation": null,
       "links": []
     }
   ]
