@@ -1,6 +1,28 @@
 {
   "period": "Mid-August – Late September 2026",
   "refreshed": "2026-09-24",
+  "sources": [
+    {
+      "name": "#prod-roadmap-updates",
+      "type": "slack"
+    },
+    {
+      "name": "#rnd",
+      "type": "slack"
+    },
+    {
+      "name": "#gtm-rnd",
+      "type": "slack"
+    },
+    {
+      "name": "Jira (TW project)",
+      "type": "jira"
+    },
+    {
+      "name": "releases.mews.com",
+      "type": "changelog"
+    }
+  ],
   "items": [
     {
       "title": "Manage languages and services on Central products (Mews Multi-Property)",
