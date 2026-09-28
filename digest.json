@@ -1,6 +1,6 @@
 {
-  "period": "Mid-August – Late September 2026",
-  "refreshed": "2026-09-24",
+  "period": "Late August – September 2026",
+  "refreshed": "2026-09-28",
   "sources": [
     {
       "name": "#prod-roadmap-updates",
@@ -25,11 +25,104 @@
   ],
   "items": [
     {
+      "title": "Reduce manual work with expanded Availability Blocks in Mews Operations",
+      "status": "ga",
+      "date": "2026-09-25",
+      "area": "Operations",
+      "summary": "Availability Blocks in Mews Operations have been expanded to keep group bookings accurate from setup through arrival: multiple occupancy levels and rates within the same space category, accurate pick-up tracking as guest counts change, automatic inheritance of product rules from a parent rate, adding existing reservation groups to a block without rebuilding it, an updated report to spot blocks needing attention, and connected-space relationships factored into availability.",
+      "pitch": "Group bookings used to mean manual workarounds to keep occupancy, rates, products, and pick-up in sync. Availability Blocks now handle that automatically, so Sales, Reservations, and Revenue teams spend less time reconciling and more time selling.",
+      "segmentation": "Available to all users except Strawberry properties",
+      "links": [
+        {
+          "label": "Release note",
+          "url": "https://releases.mews.com/en/reduce-manual-work-with-expanded-availability-blocks-in-mews-operations-ljXeAjUw"
+        },
+        {
+          "label": "Jira TW-2245",
+          "url": "https://mews.atlassian.net/browse/TW-2245"
+        },
+        {
+          "label": "Help article",
+          "url": "https://help.mews.com/s/article/Creating-availability-blocks-in-Mews"
+        }
+      ],
+      "source": "#prod-roadmap-updates, Jira TW-2245, releases.mews.com",
+      "confirmed_public": true
+    },
+    {
+      "title": "Germany E-Invoicing (Tier 2)",
+      "status": "ga",
+      "date": "2026-09-23",
+      "area": "Billing & Accounting",
+      "summary": "Mews now supports Germany's B2B e-invoicing requirements, accepting both Peppol BIS Billing 3.0.18 and XRechnung formats (EN 16931 compliant), including the B2G Leitweg-ID requirement for public-sector transactions. Affects roughly 1,058 German PMS customers ahead of the phased mandate (reception from 2025, sending required 2027-2028).",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Jira TW-1989",
+          "url": "https://mews.atlassian.net/browse/TW-1989"
+        }
+      ],
+      "source": "Jira TW-1989",
+      "confirmed_public": true
+    },
+    {
+      "title": "Norway B2B e-Invoicing — coming soon",
+      "status": "coming_soon",
+      "date": "2026-09-17",
+      "area": "Billing & Accounting",
+      "summary": "In-app 'coming soon' notice for Norwegian customers ahead of a Peppol/EHF e-invoicing integration (via Mews Marketplace with Invopop, reusing the Belgium/Denmark engine), targeted for GA end of September 2026. Norway's new mandate requires structured B2B e-invoices from 1 January 2027; affects 300+ Mews properties there.",
+      "pitch": null,
+      "segmentation": "Norway segment only; targeted GA end of September 2026",
+      "links": [
+        {
+          "label": "Jira TW-2286",
+          "url": "https://mews.atlassian.net/browse/TW-2286"
+        }
+      ],
+      "source": "Jira TW-2286",
+      "confirmed_public": true
+    },
+    {
+      "title": "Mews → Flexkeeping Task Sync",
+      "status": "ga",
+      "date": "2026-09-16",
+      "area": "Housekeeping",
+      "summary": "Mews tasks now sync automatically and in real time to Flexkeeping: a task created in Mews appears in the correct Flexkeeping user-group queue within 30 seconds, and completing it in Flexkeeping updates Mews automatically with no duplicate entry required.",
+      "pitch": null,
+      "segmentation": null,
+      "links": [
+        {
+          "label": "Jira TW-2060",
+          "url": "https://mews.atlassian.net/browse/TW-2060"
+        }
+      ],
+      "source": "Jira TW-2060",
+      "confirmed_public": true
+    },
+    {
+      "title": "Reconcile your books faster — Trial Balance by week, month, or any period",
+      "status": "coming_soon",
+      "date": "2026-09-16",
+      "area": "Billing & Accounting",
+      "summary": "The Trial Balance moves from daily-only Excel/PDF exports into a live, interactive report inside Mews Operations. Finance teams will be able to select any date range, view summarized ledger data directly in Mews, and export to Excel, CSV, or PDF via the Export queue.",
+      "pitch": null,
+      "segmentation": "Segmented release to US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico — targeted late September 2026",
+      "links": [
+        {
+          "label": "Jira TW-1807",
+          "url": "https://mews.atlassian.net/browse/TW-1807"
+        }
+      ],
+      "source": "#prod-roadmap-updates, Jira TW-1807",
+      "confirmed_public": true
+    },
+    {
       "title": "Manage languages and services on Central products (Mews Multi-Property)",
       "status": "ga",
       "date": "2026-09-15",
       "area": "Other",
-      "summary": "Central products can now support multiple languages, which automatically propagate to local-level products. Central and local-level products can also now be connected via a Central service instead of a service key.",
+      "summary": "Central products can now support multiple languages, which automatically propagate to local-level products. Central and local-level products can also now be connected via a Central service directly, instead of a service key.",
       "pitch": "Central products just got more flexible — multiple languages roll down to every local property automatically, and linking products no longer means juggling service keys.",
       "segmentation": "Segmented to multi-property users",
       "links": [
@@ -50,7 +143,7 @@
       "status": "ga",
       "date": "2026-09-15",
       "area": "Billing & Accounting",
-      "summary": "Properties can now set up recurring, scheduled exports for the deposit and guest ledgers, with custom frequency and automatic delivery — instead of running these exports manually every time.",
+      "summary": "Properties can now set up recurring, scheduled exports for the deposit and guest ledgers, with custom frequency and automatic delivery, instead of running these exports manually every time.",
       "pitch": "No more remembering to pull deposit and guest ledger exports by hand — set the schedule once and the data lands automatically, right when finance needs it for reconciliation.",
       "segmentation": null,
       "links": [
@@ -71,7 +164,7 @@
       "status": "ga",
       "date": "2026-09-14",
       "area": "RMS",
-      "summary": "Properties can now configure Ancillary revenue estimates in Mews RMS, recording how much guests typically spend on services beyond their room (dining, spa). RMS adds that expected spend to the room rate when working out what a booking is worth.",
+      "summary": "Properties can now configure Ancillary revenue estimates in Mews RMS — recording expected daily or per-stay guest spend on services beyond the room (dining, spa) — so rate recommendations reflect total revenue potential, not just room revenue.",
       "pitch": "Properties already earn real money from dining, spa, and other on-property spend — this lets that spend inform the room rate itself. Position it as sharper pricing intelligence, not a new upsell feature.",
       "segmentation": null,
       "links": [
@@ -93,7 +186,7 @@
       "date": "2026-09-08",
       "area": "Billing & Accounting",
       "summary": "The Ledger Activity Report now hides self-balancing postings that net to zero within the selected date range, groups remaining entries by source item, and gives every 0% VAT posting its own zero-value entry in the tax ledger.",
-      "pitch": "Frame it as a clarity upgrade to the Ledger Activity Report — meaningful movements are easier to find, and the tax audit trail is now fully complete for 0% VAT postings.",
+      "pitch": "Frame it as a clarity upgrade — meaningful movements are easier to find, and the tax audit trail is now complete for 0% VAT postings.",
       "segmentation": null,
       "links": [
         {
@@ -105,41 +198,7 @@
           "url": "https://mews.atlassian.net/browse/TW-2299"
         }
       ],
-      "source": "#prod-roadmap-updates, Jira TW-2299, releases.mews.com",
-      "confirmed_public": true
-    },
-    {
-      "title": "Germany E-invoicing",
-      "status": "ga",
-      "date": "2026-09-23",
-      "area": "Billing & Accounting",
-      "summary": "Germany E-invoicing is now released (Tier 2). Found via Jira only — no Slack write-up yet, so detail is limited to the ticket title. Worth confirming exact scope with the Fintech/Billing PM before quoting specifics to customers.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Jira TW-1989",
-          "url": "https://mews.atlassian.net/browse/TW-1989"
-        }
-      ],
-      "source": "Jira TW-1989",
-      "confirmed_public": true
-    },
-    {
-      "title": "Mews → Flexkeeping Task Sync",
-      "status": "ga",
-      "date": "2026-09-16",
-      "area": "Housekeeping",
-      "summary": "Tier 1 release note for Mews → Flexkeeping Task Sync — housekeeping tasks now sync between Mews and Flexkeeping. Found via Jira only; no Slack write-up in the monitored channels.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Jira TW-2060",
-          "url": "https://mews.atlassian.net/browse/TW-2060"
-        }
-      ],
-      "source": "Jira TW-2060",
+      "source": "releases.mews.com",
       "confirmed_public": true
     },
     {
@@ -147,7 +206,7 @@
       "status": "ga",
       "date": "2026-09-09",
       "area": "RMS",
-      "summary": "New charts released to close a feature gap between Mews RMS and the legacy Atomize product ahead of full consolidation. Found via Jira only; limited detail beyond the ticket title.",
+      "summary": "Two additional charts added to the daily view in Mews RMS, closing a feature-parity gap with Atomize ahead of full consolidation onto Mews RMS.",
       "pitch": null,
       "segmentation": null,
       "links": [
@@ -160,124 +219,11 @@
       "confirmed_public": true
     },
     {
-      "title": "Mews Channel Manager, powered by SiteMinder",
-      "status": "ga",
-      "date": "2026-08-17",
-      "area": "Distribution",
-      "summary": "Access 400+ OTAs and other booking channels (Booking.com, Expedia, Airbnb Hotels and more) directly inside Mews Operations, in two plans (Core included by default, Pro). Includes a Channel Performance dashboard and automatic rate/availability/restriction sync. Being introduced gradually for properties currently on SiteMinder; existing Booking.com/Expedia direct integrations can't yet be migrated.",
-      "pitch": "One vendor, one source of truth, full visibility over the channel mix driving revenue — distribution and pricing in the same system, so the path from insight to action is shorter.",
-      "segmentation": "Gradual rollout to properties currently using SiteMinder",
-      "links": [
-        {
-          "label": "Release note",
-          "url": "https://releases.mews.com/en"
-        },
-        {
-          "label": "Jira TW-2077",
-          "url": "https://mews.atlassian.net/browse/TW-2077"
-        }
-      ],
-      "source": "releases.mews.com, Jira TW-2077",
-      "confirmed_public": true
-    },
-    {
-      "title": "Reconcile your books faster — Trial Balance by any period",
-      "status": "coming_soon",
-      "date": "2026-09-16",
-      "area": "Billing & Accounting",
-      "summary": "The Trial Balance moves from daily-only Excel/PDF exports into a live, interactive report inside Mews Operations. Finance teams can select any date range, view summarized ledger data directly in Mews, and export to Excel, CSV, or PDF via the Export queue.",
-      "pitch": null,
-      "segmentation": "Segmented release to US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico",
-      "links": [
-        {
-          "label": "Jira TW-1807",
-          "url": "https://mews.atlassian.net/browse/TW-1807"
-        }
-      ],
-      "source": "#prod-roadmap-updates, Jira TW-1807",
-      "confirmed_public": true
-    },
-    {
-      "title": "Norway B2B e-Invoicing",
-      "status": "coming_soon",
-      "date": "2026-09-17",
-      "area": "Billing & Accounting",
-      "summary": "Norway B2B e-Invoicing coming soon (in-app message ticket). Found via Jira only — no Slack write-up in the monitored channels yet, so confirm rollout timing before sharing a date with customers.",
-      "pitch": null,
-      "segmentation": null,
-      "links": [
-        {
-          "label": "Jira TW-2286",
-          "url": "https://mews.atlassian.net/browse/TW-2286"
-        }
-      ],
-      "source": "Jira TW-2286",
-      "confirmed_public": true
-    },
-    {
-      "title": "Mews Automations",
-      "status": "coming_soon",
-      "date": "2026-08-26",
-      "area": "Operations",
-      "summary": "Build and run operational workflows that handle routine tasks automatically (e.g. auto-upgrading a loyal guest, adding an arrival allowance), with a built-in action log for full visibility. Publicly listed as coming 1 October. Internally, the beta was extended to Oct 1 to finish a pre-activation safety review agent that screens automations for misuse/mistakes before they go live.",
-      "pitch": "Automation with guardrails, not guesswork — every run is logged so nothing happens without a trace.",
-      "segmentation": "GA publicly targeted for October 1, 2026",
-      "links": [
-        {
-          "label": "Coming soon",
-          "url": "https://releases.mews.com/en"
-        }
-      ],
-      "source": "releases.mews.com, #gtm-rnd",
-      "confirmed_public": true
-    },
-    {
-      "title": "Uber x Mews beta — in-app guest ride booking",
-      "status": "radar",
-      "date": "2026-09-01",
-      "area": "Guest Journey / MMP",
-      "summary": "Beta properties can book Uber rides for guests directly inside Mews. 14+ hotels active across DE, AT, UK, US, NL, BE; first hotel live Aug 17. Internally targeting GA by end of October, but this has not been confirmed via #prod-roadmap-updates, Jira, or the public changelog — treat the October date as unconfirmed.",
-      "pitch": null,
-      "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. Beta only (14+ hotels) — do not commit customers to an October GA date.",
-      "links": [],
-      "source": "#rnd",
-      "confirmed_public": false
-    },
-    {
-      "title": "Duna — reported GA",
+      "title": "Duna — reported GA as default KYB provider",
       "status": "radar",
       "date": "2026-09-15",
-      "area": "Other",
-      "summary": "A one-line cross-post in #rnd said \"Duna GA released today\" with no further detail and no independent confirmation found in Jira or the public changelog. Scope and customer relevance unclear.",
-      "pitch": null,
-      "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. Confirm what this actually is before repeating it.",
-      "links": [],
-      "source": "#rnd",
-      "confirmed_public": false
-    },
-    {
-      "title": "Competitor pricing teaser for non-RMS properties (Revenue > Overview)",
-      "status": "radar",
-      "date": "2026-09-08",
-      "area": "RMS",
-      "summary": "Non-RMS properties viewing Revenue > Overview now see a competitor pricing teaser sitting where the real RMS widget lives for RMS customers — an internal growth experiment, not a customer-facing feature. ~1.5k weekly active enterprises hit that page; click-through/rejection is being measured.",
-      "pitch": null,
-      "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. This is an internal growth experiment, not something to describe as a product feature.",
-      "links": [
-        {
-          "label": "Write-up",
-          "url": "https://mews.atlassian.net/wiki/x/GQbJmg"
-        }
-      ],
-      "source": "#rnd",
-      "confirmed_public": false
-    },
-    {
-      "title": "Flexkeeping now preferred housekeeping solution for all of Accor",
-      "status": "radar",
-      "date": "2026-09-09",
-      "area": "Housekeeping",
-      "summary": "Flexkeeping has become the preferred housekeeping solution across all of Accor — a partnership/business win shared internally in #rnd, separate from the Flexkeeping Task Sync feature release above.",
+      "area": "Payments",
+      "summary": "A #rnd cross-post said Duna is now live as the default KYB (Know Your Business) provider for business/merchant verification, replacing Trulioo for new submissions (existing in-flight Trulioo verifications unaffected). No independent confirmation found in #prod-roadmap-updates, Jira, or the public changelog — treat scope and customer impact as unconfirmed.",
       "pitch": null,
       "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
       "links": [],
@@ -285,13 +231,13 @@
       "confirmed_public": false
     },
     {
-      "title": "Guest Messaging & Nova — targeting GA alongside Automations (Oct 1)",
+      "title": "Automations, Guest Messaging & Nova — targeting GA October 1",
       "status": "radar",
       "date": "2026-08-31",
       "area": "Guest Journey / MMP",
-      "summary": "#gtm-rnd states Guest Messaging is in Early Access with Automations today and \"will move to General Availability on October 1st, aligned with the GA launch of Automations and Nova.\" Unlike Automations, neither Guest Messaging nor Nova appear on the public changelog yet. The source message explicitly instructs: hold all announcements (PR, LinkedIn, release notes) until October 1 — customers asking can have their enterpriseId shared in #rnd-foh-guestjourney to be flipped on early.",
+      "summary": "#gtm-rnd states Mews Automations, Guest Messaging, and Nova are targeting a joint GA on October 1, 2026. The Automations beta was extended to October 1 to finish a pre-activation safety-review agent (screens automations for misuse/mistakes before going live); Guest Messaging is available today only to Early Access customers with Automations enabled. Not currently confirmed via #prod-roadmap-updates, Jira, or the public changelog — as of this refresh, Automations is no longer listed on releases.mews.com either. Explicit internal instruction: hold all announcements (PR, LinkedIn, release notes) until October 1; customers asking about Guest Messaging can have their enterpriseId shared in #rnd-foh-guestjourney to be flipped on early.",
       "pitch": null,
-      "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. Explicit internal instruction: do NOT announce Guest Messaging or Nova before October 1.",
+      "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. Do NOT announce Automations, Guest Messaging, or Nova before October 1.",
       "links": [],
       "source": "#gtm-rnd",
       "confirmed_public": false
