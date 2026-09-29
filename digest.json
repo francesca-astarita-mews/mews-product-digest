@@ -51,7 +51,10 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-2245, releases.mews.com",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Germany E-Invoicing (Tier 2)",
@@ -72,7 +75,10 @@
         }
       ],
       "source": "Jira TW-1989, Jira TW-1992",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "DACH"
+      ]
     },
     {
       "title": "Norway B2B e-Invoicing — coming soon",
@@ -89,7 +95,10 @@
         }
       ],
       "source": "Jira TW-2286",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "Nordics"
+      ]
     },
     {
       "title": "Mews → Flexkeeping Task Sync (Tier 1)",
@@ -106,7 +115,10 @@
         }
       ],
       "source": "Jira TW-2060",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Trial Balance by week, month, or any period in Mews Operations",
@@ -127,7 +139,11 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-1807, Jira TW-1794",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "Americas",
+        "APAC"
+      ]
     },
     {
       "title": "Manage languages and services on Central products (Mews Multi-Property)",
@@ -148,7 +164,10 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-2348",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Scheduled exports for the deposit and guest ledgers in Mews Operations",
@@ -173,7 +192,10 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-2226, releases.mews.com",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Ancillary revenue estimates in Mews RMS",
@@ -198,7 +220,10 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-2359, releases.mews.com",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Charts added for feature parity between Mews RMS and Atomize",
@@ -215,7 +240,10 @@
         }
       ],
       "source": "Jira TW-2344",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Ledger Activity Report focused on meaningful movements",
@@ -240,7 +268,10 @@
         }
       ],
       "source": "#prod-roadmap-updates, Jira TW-2299, releases.mews.com",
-      "confirmed_public": true
+      "confirmed_public": true,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Mews Bank Account — USA pilot (release-note ticket closed)",
@@ -257,7 +288,10 @@
         }
       ],
       "source": "Jira TW-1591 (closed, no release content)",
-      "confirmed_public": false
+      "confirmed_public": false,
+      "realm": [
+        "Americas"
+      ]
     },
     {
       "title": "Duna live as default KYB provider (replacing Trulioo)",
@@ -274,7 +308,10 @@
         }
       ],
       "source": "#rnd",
-      "confirmed_public": false
+      "confirmed_public": false,
+      "realm": [
+        "all"
+      ]
     },
     {
       "title": "Automations, Guest Messaging & Nova — targeting GA October 1",
@@ -286,7 +323,10 @@
       "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers. Do NOT announce Automations, Guest Messaging, or Nova before October 1 — check this digest again after that date.",
       "links": [],
       "source": "#gtm-rnd",
-      "confirmed_public": false
+      "confirmed_public": false,
+      "realm": [
+        "all"
+      ]
     }
   ]
 }
