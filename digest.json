@@ -1,6 +1,6 @@
 {
  "period": "September – October 2026",
- "refreshed": "2026-10-01",
+ "refreshed": "2026-10-05",
  "sources": [
   {
    "name": "#prod-roadmap-updates",
@@ -25,65 +25,204 @@
  ],
  "items": [
   {
-   "title": "Trial Balance for any period in Mews Operations",
+   "title": "Mews Automations is GA",
    "status": "ga",
-   "date": "2026-09-30",
-   "area": "Billing & Accounting",
-   "realm": [
-    "Americas",
-    "APAC"
-   ],
-   "summary": "Trial Balance is now a native report in Mews Operations covering weekly, monthly or custom periods, not only daily Excel/PDF exports. View summarised ledger data in-app and export to Excel, CSV or PDF via the Export queue.",
-   "pitch": "Reconcile a whole month in one report — no more stitching daily files together.",
-   "segmentation": "Segmented release (Tier 2): US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico.",
-   "links": [
-    {
-     "label": "Jira TW-1794",
-     "url": "https://mews.atlassian.net/browse/TW-1794"
-    },
-    {
-     "label": "Help article",
-     "url": "https://help.mews.com/s/article/The-Trial-Balance-report-in-Mews-Operations?language=en_US"
-    }
-   ],
-   "source": "#prod-roadmap-updates, Jira TW-1794/1807/1805",
-   "confirmed_public": true
-  },
-  {
-   "title": "Expanded Availability Blocks in Mews Operations",
-   "status": "ga",
-   "date": "2026-09-25",
-   "area": "Events & Groups",
+   "date": "2026-10-01",
+   "area": "Automations",
    "realm": [
     "all"
    ],
-   "summary": "Availability Blocks now support multiple occupancy levels and rates per space category, accurate pick-up tracking, product rules inherited from the parent rate, adding existing reservation groups, connected-space availability, and an updated Availability Block Report.",
-   "pitch": "Less manual reconciliation on group bookings, from setup through arrival.",
-   "segmentation": "All users except Strawberry properties (Tier 3).",
+   "summary": "Build, run and monitor workflows with the Workflow Creator (triggers, filters, actions), performance/monitoring view, and three templates (room upgrades, amenity gifts, personalised upsell offers).",
+   "pitch": "Lead with the three templates as the quick win; the monitoring view builds trust.",
+   "segmentation": "Tier 1. Available to all Mews Operations users under Automations in the main menu.",
    "links": [
     {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/reduce-manual-work-with-expanded-availability-blocks-in-mews-operations-ljXeAjUw"
+     "label": "Jira TW-1375",
+     "url": "https://mews.atlassian.net/browse/TW-1375"
     },
     {
-     "label": "Jira TW-2245",
-     "url": "https://mews.atlassian.net/browse/TW-2245"
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/fewer-manual-tasks-safer-operations-introducing-mews-automations"
     }
    ],
-   "source": "#prod-roadmap-updates, Jira TW-2245, releases.mews.com",
+   "source": "#prod-roadmap-updates, releases.mews.com",
    "confirmed_public": true
   },
   {
-   "title": "Mews to Flexkeeping Task Sync",
+   "title": "Guest Messaging is GA",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "Guest Messaging",
+   "realm": [
+    "all"
+   ],
+   "summary": "One inbox in Mews Operations for SMS, WhatsApp, Booking.com, Expedia and more; reply without leaving Mews, AI can draft replies.",
+   "pitch": "Lead with time saved and no more missed messages.",
+   "segmentation": "Tier 1. Requires the Advanced Guest Experience module.",
+   "links": [
+    {
+     "label": "Jira TW-1411",
+     "url": "https://mews.atlassian.net/browse/TW-1411"
+    },
+    {
+     "label": "Help: activate a channel",
+     "url": "https://help.mews.com/s/article/How-to-activate-a-guest-messaging-channel-in-Mews-Operations?language=en_US"
+    }
+   ],
+   "source": "#prod-roadmap-updates, releases.mews.com",
+   "confirmed_public": true
+  },
+  {
+   "title": "Germany e-invoicing via Peppol",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "Compliance Suite",
+   "realm": [
+    "DACH"
+   ],
+   "summary": "Send compliant e-invoices (Peppol/XRechnung) to businesses and public bodies from Mews Operations; created automatically on bill close, with delivery status in the Fiscal Record Report. Runs alongside existing XRechnung integrations.",
+   "pitch": "Compliance happens as part of closing a bill; low-cost add-on ahead of the 2027/2028 mandate.",
+   "segmentation": "Tier 2. Germany only; opt-in via Mews Marketplace (Compliance Suite), EUR 25/property/month.",
+   "links": [
+    {
+     "label": "Jira TW-1989",
+     "url": "https://mews.atlassian.net/browse/TW-1989"
+    },
+    {
+     "label": "Setup guide",
+     "url": "https://help.mews.com/s/article/How-to-set-up-the-Peppol-fiscal-registry-integration-in-Mews-Operations?language=en_US"
+    }
+   ],
+   "source": "#prod-roadmap-updates, Jira TW-1989/TW-1992",
+   "confirmed_public": true
+  },
+  {
+   "title": "Italy e-invoicing (SdI)",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "Compliance Suite",
+   "realm": [
+    "Southern Europe"
+   ],
+   "summary": "Mews generates the FatturaPA invoice and submits it to SdI on bill close; no certificate needed; delivery status in the Fiscal Record Report. Covers domestic B2B, B2G, B2C. Runs alongside the legacy integration.",
+   "pitch": "Close the bill and Mews does the rest. SdI confirmation can take up to 24h, so do not promise instant confirmation.",
+   "segmentation": "Tier 2. Italy only; Compliance Suite, EUR 25/property/month.",
+   "links": [
+    {
+     "label": "Jira TW-2689",
+     "url": "https://mews.atlassian.net/browse/TW-2689"
+    },
+    {
+     "label": "Setup guide",
+     "url": "https://help.mews.com/s/article/How-to-set-up-the-SDI-fiscal-registry-integration-in-Mews-Operations?language=en_US"
+    }
+   ],
+   "source": "#prod-roadmap-updates, Jira TW-2689",
+   "confirmed_public": true
+  },
+  {
+   "title": "Accounts Receivable reminder templates and history",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "Accounts Receivable",
+   "realm": [
+    "all"
+   ],
+   "summary": "Edit 4 reusable invoice reminder templates and review the full history of payment reminders sent per invoice and account.",
+   "pitch": "Set wording once, reuse everywhere; history prevents chasing the same invoice twice.",
+   "segmentation": "Tier 3. Properties eligible for the Accounts Receivable package.",
+   "links": [
+    {
+     "label": "Jira TW-2334",
+     "url": "https://mews.atlassian.net/browse/TW-2334"
+    },
+    {
+     "label": "Help article",
+     "url": "https://help.mews.com/s/article/Using-reminder-templates-and-reminder-history-in-Accounts-Receivable?language=en_US"
+    }
+   ],
+   "source": "#prod-roadmap-updates, Jira TW-2334",
+   "confirmed_public": true
+  },
+  {
+   "title": "Expired inquiries/options no longer counted as no-shows",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Inquired, Optional or Requested reservations that expire are now cancelled with reason \"Confirmation missed\" instead of \"No show\"; confirmed no-arrivals stay \"No show\". Reports show genuine no-shows only, from release date. No action needed.",
+   "pitch": "",
+   "segmentation": "Available on all subscription plans. Earlier cancellations keep their original reason.",
+   "links": [
+    {
+     "label": "Jira TW-2715",
+     "url": "https://mews.atlassian.net/browse/TW-2715"
+    },
+    {
+     "label": "How no-shows work",
+     "url": "https://help.mews.com/s/article/how-do-no-shows-work"
+    }
+   ],
+   "source": "Jira TW-2715",
+   "confirmed_public": true
+  },
+  {
+   "title": "Bulk edit pricing: custom prices and RMS price hierarchies per date",
+   "status": "ga",
+   "date": "2026-10-01",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Bulk edit pricing can now set a unique price or RMS price hierarchy for each date, not just one value across a range. Jira note says the customer-facing post was still in localisation, so check the public changelog before quoting.",
+   "pitch": "",
+   "segmentation": "No segmentation stated in source.",
+   "links": [
+    {
+     "label": "Jira TW-2687",
+     "url": "https://mews.atlassian.net/browse/TW-2687"
+    }
+   ],
+   "source": "Jira TW-2687",
+   "confirmed_public": true
+  },
+  {
+   "title": "Availability Blocks expanded",
+   "status": "ga",
+   "date": "2026-09-25",
+   "area": "Events",
+   "realm": [
+    "all"
+   ],
+   "summary": "Multiple occupancy levels and rates per space category, pick-up tracked by category/occupancy, product rules inherited from parent rate, add existing reservation groups to a block, updated Availability Block Report, connected spaces in availability calculations.",
+   "pitch": "Less manual reconciliation for group bookings.",
+   "segmentation": "Tier 3. All users except Strawberry properties.",
+   "links": [
+    {
+     "label": "Jira TW-2245",
+     "url": "https://mews.atlassian.net/browse/TW-2245"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/reduce-manual-work-with-expanded-availability-blocks-in-mews-operations-ljXeAjUw"
+    }
+   ],
+   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2245",
+   "confirmed_public": true
+  },
+  {
+   "title": "Mews to Flexkeeping task sync",
    "status": "ga",
    "date": "2026-09-16",
    "area": "Housekeeping",
    "realm": [
     "all"
    ],
-   "summary": "Tasks created in Mews appear in the right Flexkeeping user-group queue within 30 seconds; completing them in Flexkeeping updates Mews automatically.",
+   "summary": "Tasks created in Mews appear in the right Flexkeeping user group queue within 30 seconds; completion in Flexkeeping updates Mews automatically.",
    "pitch": "No duplicate entry between Mews and Flexkeeping.",
-   "segmentation": "Flexkeeping customers (Tier 1).",
+   "segmentation": "Tier 1.",
    "links": [
     {
      "label": "Jira TW-2060",
@@ -94,51 +233,23 @@
    "confirmed_public": true
   },
   {
-   "title": "Central products: multiple languages and Central service linking (Multi-Property)",
-   "status": "ga",
-   "date": "2026-09-15",
-   "area": "Other",
-   "realm": [
-    "all"
-   ],
-   "summary": "Central products can support multiple languages that propagate to local-level products, and can be linked to local products via a Central service instead of a service key.",
-   "pitch": "Multiple languages roll down to every local property automatically.",
-   "segmentation": "Multi-property users (Tier 3).",
-   "links": [
-    {
-     "label": "Jira TW-2348",
-     "url": "https://mews.atlassian.net/browse/TW-2348"
-    },
-    {
-     "label": "Help article",
-     "url": "https://help.mews.com/s/article/How-to-create-central-products-in-Mews-Multi-Property"
-    }
-   ],
-   "source": "#prod-roadmap-updates",
-   "confirmed_public": true
-  },
-  {
    "title": "Scheduled exports for deposit and guest ledgers",
    "status": "ga",
    "date": "2026-09-15",
-   "area": "Billing & Accounting",
+   "area": "Accounts Receivable",
    "realm": [
     "all"
    ],
-   "summary": "Set up recurring, automatic exports of the deposit and guest ledgers with custom frequency and automated delivery.",
-   "pitch": "Set the schedule once; ledger data lands when finance needs it.",
-   "segmentation": "All Mews Operations users (Tier 3).",
+   "summary": "Set up recurring, automatic exports of deposit and guest ledgers at a chosen frequency, delivered automatically.",
+   "pitch": "",
+   "segmentation": "No segmentation stated.",
    "links": [
     {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/automate-your-financial-reporting-with-scheduled-exports-for-the-deposit-and-guest-ledgers-in-mews-operations"
-    },
-    {
-     "label": "Jira TW-2226",
-     "url": "https://mews.atlassian.net/browse/TW-2226"
+     "label": "Public changelog",
+     "url": "https://releases.mews.com/en"
     }
    ],
-   "source": "#prod-roadmap-updates, releases.mews.com",
+   "source": "releases.mews.com",
    "confirmed_public": true
   },
   {
@@ -149,77 +260,58 @@
    "realm": [
     "all"
    ],
-   "summary": "Configure typical guest spend beyond the room (dining, spa) per day or stay, with seasonal ranges, so RMS rate recommendations reflect total revenue potential.",
-   "pitch": "Price for what a booking is worth, not just the room.",
-   "segmentation": "All users (Tier 3).",
+   "summary": "Configure expected adult/child spend on services beyond the room (daily or per stay, seasonal ranges) so RMS rate recommendations reflect total revenue potential.",
+   "pitch": "Price for what guests really spend, not just the room.",
+   "segmentation": "Applies to dynamically optimised rates.",
    "links": [
     {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/price-for-what-guests-really-spend-not-just-their-room-with-ancillary-revenue-estimates-in-mews-rms"
-    },
-    {
-     "label": "Jira TW-2359",
-     "url": "https://mews.atlassian.net/browse/TW-2359"
+     "label": "Public changelog",
+     "url": "https://releases.mews.com/en"
     }
    ],
-   "source": "#prod-roadmap-updates, Jira TW-2359, releases.mews.com",
+   "source": "releases.mews.com",
    "confirmed_public": true
   },
   {
-   "title": "Italy e-invoicing (SDI) in Mews Operations",
-   "status": "ga",
-   "date": "2026-10-01",
-   "area": "Billing & Accounting",
-   "realm": [
-    "EMEA"
-   ],
-   "summary": "Mews generates the FatturaPA e-invoice and submits it to SdI automatically on bill close; status returns to the Fiscal Record Report. Part of Mews Compliance Suite (flat EUR 25/property/month). SdI confirmation can take up to 24h — don't promise instant confirmation. Release note not yet seen in Slack/changelog.",
-   "pitch": "Compliant invoicing with no manual XML or certificates.",
-   "segmentation": "Italian properties (Tier 2). Confirm engineering readiness before telling customers.",
-   "links": [
-    {
-     "label": "Jira TW-2689",
-     "url": "https://mews.atlassian.net/browse/TW-2689"
-    }
-   ],
-   "source": "Jira TW-2689",
-   "confirmed_public": true
-  },
-  {
-   "title": "Germany e-invoicing (XRechnung / Peppol)",
+   "title": "Trial Balance for any period in Mews Operations",
    "status": "coming_soon",
    "date": "2026-09-30",
-   "area": "Billing & Accounting",
+   "area": "Accounts Receivable",
    "realm": [
-    "EMEA"
+    "Americas",
+    "APAC"
    ],
-   "summary": "Germany e-invoicing using Peppol BIS Billing 3.0.18 / XRechnung (EN 16931), incl. Leitweg-ID for B2G. GA status unconfirmed.",
-   "pitch": "Meet German B2B/B2G e-invoicing obligations from the PMS.",
-   "segmentation": "German properties (Tier 2).",
+   "summary": "Trial Balance becomes a native report covering weekly, monthly or custom periods, with export to Excel, CSV or PDF via the Export queue. Sources conflict: #prod-roadmap-updates posted a release note dated 30 Sep, but the public changelog still lists it as Coming Soon (5 Oct), so confirm availability before promising.",
+   "pitch": "Reconcile a whole month in one report.",
+   "segmentation": "Tier 2, segmented: US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico.",
    "links": [
     {
-     "label": "Jira TW-1989",
-     "url": "https://mews.atlassian.net/browse/TW-1989"
+     "label": "Jira TW-1794",
+     "url": "https://mews.atlassian.net/browse/TW-1794"
     },
     {
-     "label": "Jira TW-1992",
-     "url": "https://mews.atlassian.net/browse/TW-1992"
+     "label": "Jira TW-1807",
+     "url": "https://mews.atlassian.net/browse/TW-1807"
+    },
+    {
+     "label": "Help article",
+     "url": "https://help.mews.com/s/article/The-Trial-Balance-report-in-Mews-Operations?language=en_US"
     }
    ],
-   "source": "Jira TW-1989, TW-1992",
+   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-1794/1807/1805",
    "confirmed_public": true
   },
   {
-   "title": "Norway B2B e-invoicing (Peppol/EHF) via Mews Compliance Suite",
+   "title": "Norway B2B e-invoicing (Peppol/EHF) — coming soon",
    "status": "coming_soon",
    "date": "2026-09-17",
-   "area": "Billing & Accounting",
+   "area": "Compliance Suite",
    "realm": [
-    "EMEA"
+    "Nordics"
    ],
-   "summary": "Norway requires structured B2B e-invoicing from 1 Jan 2027. Mews is building a Peppol/EHF integration (Marketplace) reusing the engine live in Belgium and Denmark; GA targeted end of September 2026. Customers should prepare organisasjonsnummer data.",
-   "pitch": "Get ahead of Norway's 1 January 2027 deadline.",
-   "segmentation": "Norwegian properties (~300+).",
+   "summary": "Peppol/EHF integration via Mews Marketplace with Invopop for Norway's B2B e-invoicing mandate (from 1 Jan 2027); in-app coming-soon notice sent to Norwegian customers. GA was targeted for end of September 2026 but no GA confirmation seen yet. Customers need their organisasjonsnummer in place.",
+   "pitch": "",
+   "segmentation": "300+ Norwegian properties affected. Norway only.",
    "links": [
     {
      "label": "Jira TW-2286",
@@ -230,52 +322,62 @@
    "confirmed_public": true
   },
   {
-   "title": "Mews Guest Messaging — GA planned 1 Oct",
+   "title": "Mews Payments Checkout reported GA",
    "status": "radar",
-   "date": "2026-08-31",
-   "area": "Guest Journey / MMP",
+   "date": "2026-10-02",
+   "area": "Payments",
    "realm": [
     "all"
    ],
-   "summary": "Internal #gtm-rnd note: available only via Early Access with Automations; planned to move to GA on 1 October alongside Automations and Nova. R&D explicitly asks to HOLD announcements (PR, LinkedIn, release notes) until 1 October. Interested customers: share enterpriseId in #rnd-foh-guestjourney.",
+   "summary": "Internal #rnd post says Mews Payments Checkout is GA: partners embed Mews Payments in their booking engines (card, Apple/Google Pay, SEPA, iDEAL); Profitroom, Straiv, Namastay live. Not seen in #prod-roadmap-updates, Jira release tickets or the public changelog, so treat as unconfirmed.",
    "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
    "links": [],
-   "source": "#gtm-rnd",
+   "source": "#rnd",
    "confirmed_public": false
   },
   {
-   "title": "Automations GA — beta extended to 1 Oct",
+   "title": "First Adyen payments live on Mews POS",
    "status": "radar",
-   "date": "2026-08-28",
-   "area": "AI & Agents",
+   "date": "2026-10-04",
+   "area": "POS",
    "realm": [
     "all"
    ],
-   "summary": "Internal #gtm-rnd note: Automations beta extended to 1 October while a pre-activation safety review agent is built. Hold GA messaging/positioning until then; tell customers asking about timing only that testing is being extended to land safety controls.",
+   "summary": "Mentioned in the internal weekly R&D update as a first milestone; no detail, rollout scope or public date.",
    "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
    "links": [],
-   "source": "#gtm-rnd",
+   "source": "#rnd",
    "confirmed_public": false
   },
   {
-   "title": "Duna GA (details unclear)",
+   "title": "POS data now in Business Intelligence",
    "status": "radar",
-   "date": "2026-09-15",
+   "date": "2026-10-04",
+   "area": "Business Intelligence",
+   "realm": [
+    "all"
+   ],
+   "summary": "Mentioned in the internal weekly R&D update (\"POS is also in BI\"); no detail or public date.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#rnd",
+   "confirmed_public": false
+  },
+  {
+   "title": "HMS zero-touch onboarding shipped",
+   "status": "radar",
+   "date": "2026-10-04",
    "area": "Other",
    "realm": [
     "all"
    ],
-   "summary": "A #rnd post says 'Duna GA released today' with a link to another Slack thread; no description of scope or audience found. Verify with the owning team before using.",
+   "summary": "Internal weekly R&D update calls it \"huge\"; no detail, scope or public date.",
    "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
-   "links": [
-    {
-     "label": "Slack thread",
-     "url": "https://mews.slack.com/archives/C024T40UR9S/p1789464344091299"
-    }
-   ],
+   "links": [],
    "source": "#rnd",
    "confirmed_public": false
   }
