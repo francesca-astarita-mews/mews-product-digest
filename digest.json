@@ -1,6 +1,6 @@
 {
  "period": "September – October 2026",
- "refreshed": "2026-10-05",
+ "refreshed": "2026-10-12",
  "sources": [
   {
    "name": "#prod-roadmap-updates",
@@ -185,7 +185,7 @@
      "url": "https://mews.atlassian.net/browse/TW-2687"
     }
    ],
-   "source": "Jira TW-2687",
+   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2687",
    "confirmed_public": true
   },
   {
@@ -274,16 +274,16 @@
   },
   {
    "title": "Trial Balance for any period in Mews Operations",
-   "status": "coming_soon",
+   "status": "ga",
    "date": "2026-09-30",
    "area": "Accounts Receivable",
    "realm": [
     "Americas",
     "APAC"
    ],
-   "summary": "Trial Balance becomes a native report covering weekly, monthly or custom periods, with export to Excel, CSV or PDF via the Export queue. Sources conflict: #prod-roadmap-updates posted a release note dated 30 Sep, but the public changelog still lists it as Coming Soon (5 Oct), so confirm availability before promising.",
+   "summary": "Trial Balance is now a native report in Mews Operations for weekly, monthly or custom periods (no longer only daily exports); export to Excel, CSV or PDF. Release note posted 30 Sep; the public changelog still lists it as coming soon.",
    "pitch": "Reconcile a whole month in one report.",
-   "segmentation": "Tier 2, segmented: US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico.",
+   "segmentation": "Tier 2. Segmented to US, Canada, Mexico, Panama, Bonaire/St Eustatius/Saba, Costa Rica, Curaçao, Singapore, Puerto Rico.",
    "links": [
     {
      "label": "Jira TW-1794",
@@ -375,6 +375,66 @@
     "all"
    ],
    "summary": "Internal weekly R&D update calls it \"huge\"; no detail, scope or public date.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#rnd",
+   "confirmed_public": false
+  },
+  {
+   "title": "Events rebuild in the PMS — timeline",
+   "status": "radar",
+   "date": "2026-10-09",
+   "area": "Events",
+   "realm": [
+    "all"
+   ],
+   "summary": "Internal working assumptions: Alpha late Nov 2026 (4–5 design partners, not for sale), Beta first half Q1 2027 (demos/selling start), GA soft launch late Q1 2027. Dates are not commitments — do not hard-commit to customers. Hold the line on external demos; the teaser video may be shared 1:1 only, not on socials. Legacy Mews Events stays in maintenance mode.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#gtm-rnd",
+   "confirmed_public": false
+  },
+  {
+   "title": "Time zone database upgrade (TZDB 2026e) planned 3 Nov",
+   "status": "radar",
+   "date": "2026-10-08",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Internal plan to upgrade the time zone database on 3 Nov (follow-up to a Morocco booking incident); manual blitz testing planned 28 Oct across Azores, Edmonton, Mexico and Kyrgyzstan clock changes. No customer comms confirmed.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#rnd",
+   "confirmed_public": false
+  },
+  {
+   "title": "Front-of-house items in 30-day TOI look-ahead",
+   "status": "radar",
+   "date": "2026-10-09",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "October internal Transfer of Information lists items entering beta/GA in the next 30 days, e.g. Order Item Splitting, Bills in Guest Portal, Kiosk on Payment Terminals, Enhanced Tipping and Adyen for POS, Italy: no blocked registers when fiscalization fails. Internal-only; no public dates.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#rnd",
+   "confirmed_public": false
+  },
+  {
+   "title": "Fintech Oct–Nov look-ahead (TOI)",
+   "status": "radar",
+   "date": "2026-10-09",
+   "area": "Payments",
+   "realm": [
+    "all"
+   ],
+   "summary": "Internal look-ahead: Payouts API and Balance Transactions API (beta), recurring payments with iDEAL, new Payments report, available balance for US business account, KYB for US properties, S1 end of sale. Internal-only; no public dates.",
    "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
    "links": [],
