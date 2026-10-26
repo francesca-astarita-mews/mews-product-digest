@@ -1,5 +1,5 @@
 {
- "period": "October 2026",
+ "period": "Mid – Late October 2026",
  "refreshed": "2026-10-26",
  "sources": [
   {
@@ -17,152 +17,99 @@
   {
    "name": "Jira (TW project)",
    "type": "jira"
-  },
-  {
-   "name": "releases.mews.com",
-   "type": "changelog"
   }
  ],
  "items": [
   {
-   "title": "See every scheduled export and who owns it",
+   "title": "Purchase order number required on company reservations",
+   "status": "ga",
+   "date": "2026-10-22",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Properties can mark a company as requiring a PO number; reservations for it can't be created without one. Group bookings share one number; availability-block reservations are prefilled.",
+   "pitch": "A guardrail for corporate business: ask for the PO up front instead of discovering it missing when the invoice bounces.",
+   "segmentation": "Tier 3. All users; off by default, per company.",
+   "links": [
+    {
+     "label": "Jira TW-2781",
+     "url": "https://mews.atlassian.net/browse/TW-2781"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/capture-every-purchase-order-number-in-mews-operations-before-creating-the-reservation-kHM5XxDG"
+    }
+   ],
+   "source": "#prod-roadmap-updates, Jira TW-2781",
+   "confirmed_public": true
+  },
+  {
+   "title": "See every scheduled export and its owner",
    "status": "ga",
    "date": "2026-10-23",
    "area": "PMS",
    "realm": [
     "all"
    ],
-   "summary": "Admins with the Manage property settings permission can see, edit and delete every scheduled export in the property, with a new Owner column, owner filter and bulk delete.",
-   "segmentation": "Tier 3. All Mews Operations users; only admins with Manage property settings see everyone's schedules.",
+   "summary": "Admins with Manage property settings can see, edit and bulk-delete all scheduled exports, with a new Owner column and filter.",
+   "pitch": "",
+   "segmentation": "Tier 3. All users; full visibility only for admins with Manage property settings.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/see-every-scheduled-export-and-who-owns-it-in-mews-operations"
-    },
     {
      "label": "Jira TW-2897",
      "url": "https://mews.atlassian.net/browse/TW-2897"
-    }
-   ],
-   "source": "#prod-roadmap-updates, Jira TW-2897, releases.mews.com",
-   "confirmed_public": true
-  },
-  {
-   "title": "France e-Reporting in Mews POS",
-   "status": "ga",
-   "date": "2026-10-23",
-   "area": "Compliance Suite",
-   "realm": [
-    "FR"
-   ],
-   "summary": "B2C sales in Mews POS are automatically reported to the French tax administration via an approved platform. Set up in POS Back Office; PMS properties first need the Compliance Suite add-on.",
-   "segmentation": "All Mews POS properties in France (incl. overseas departments).",
-   "links": [
+    },
     {
-     "label": "Jira TW-2944",
-     "url": "https://mews.atlassian.net/browse/TW-2944"
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/see-every-scheduled-export-and-who-owns-it-in-mews-operations"
     }
    ],
-   "source": "Jira TW-2944",
+   "source": "#prod-roadmap-updates, Jira TW-2897",
    "confirmed_public": true
   },
   {
-   "title": "Sync spaces, space types and floors from Mews to Flexkeeping",
-   "status": "ga",
-   "date": "2026-10-22",
-   "area": "Housekeeping",
-   "realm": [
-    "all"
-   ],
-   "summary": "The Flexkeeping integration gets a settings tab and automatic sync of spaces, space types and floors from Mews.",
-   "segmentation": "Tier 3. Behind a feature flag: off for existing properties, on by default for new ones.",
-   "links": [
-    {
-     "label": "Jira TW-2843",
-     "url": "https://mews.atlassian.net/browse/TW-2843"
-    }
-   ],
-   "source": "Jira TW-2843",
-   "confirmed_public": true
-  },
-  {
-   "title": "Redesigned bookable service setup and settings pages",
-   "status": "ga",
-   "date": "2026-10-12",
-   "area": "PMS",
-   "realm": [
-    "all"
-   ],
-   "summary": "Clearer layout and guidance on the create-bookable-service and service settings pages (Settings > Services). Data and capabilities are unchanged.",
-   "segmentation": "Tier 3. Rolled out via feature flag from 12 Oct.",
-   "links": [
-    {
-     "label": "Jira TW-2799",
-     "url": "https://mews.atlassian.net/browse/TW-2799"
-    }
-   ],
-   "source": "Jira TW-2799",
-   "confirmed_public": true
-  },
-  {
-   "title": "Cancellation fees now post to accounting on the consumption date",
-   "status": "ga",
-   "date": "2026-10-19",
-   "area": "Accounts Receivable",
-   "realm": [
-    "all"
-   ],
-   "summary": "Cancellation-fee items post on their consumption date, which can change timing in accounting reports and exports.",
-   "segmentation": "Tier 3. Enabled for all properties at GA.",
-   "links": [
-    {
-     "label": "Jira TW-2785",
-     "url": "https://mews.atlassian.net/browse/TW-2785"
-    }
-   ],
-   "source": "Jira TW-2785",
-   "confirmed_public": true
-  },
-  {
-   "title": "Tips report in Mews POS (North America tipping)",
+   "title": "Tips report in Mews POS",
    "status": "ga",
    "date": "2026-10-15",
    "area": "POS",
    "realm": [
     "all"
    ],
-   "summary": "New report of tips, service charges and tip-pool contributions by date, outlet and employee, with CSV/Excel/PDF export. Employees see their own tips in the POS Android app.",
+   "summary": "One report for tips, service charges and tip-pool contributions by date, outlet, employee and transaction; exports to CSV/Excel/PDF. Staff see own tips in the POS Android app.",
+   "pitch": "Replaces stitching tip data together before payroll; supports tipping setups needed in North America.",
    "segmentation": "Tier 2. Properties with tipping enabled on at least one outlet.",
    "links": [
     {
-     "label": "Release note",
-     "url": "https://releases.pos.mews.com/en/see-every-tip-and-service-charge-in-the-new-tips-report-in-mews-pos-K5HA8zPW"
-    },
-    {
      "label": "Jira TW-1760",
      "url": "https://mews.atlassian.net/browse/TW-1760"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.pos.mews.com/en/see-every-tip-and-service-charge-in-the-new-tips-report-in-mews-pos-K5HA8zPW"
     }
    ],
    "source": "#prod-roadmap-updates, Jira TW-1760",
    "confirmed_public": true
   },
   {
-   "title": "POS multi-tax and net pricing for North America",
+   "title": "POS North America expansion: multi-tax and net pricing",
    "status": "ga",
    "date": "2026-10-09",
    "area": "POS",
    "realm": [
     "Americas"
    ],
-   "summary": "Multi-tax and net pricing let Mews POS be used in North America.",
-   "segmentation": "Tier 2. North America.",
+   "summary": "Release note for POS NA Expansion enabling multi-tax and net pricing so Mews POS can be used in North America.",
+   "pitch": "",
+   "segmentation": "Tier 2. North America focus.",
    "links": [
     {
-     "label": "Jira TW-1766",
-     "url": "https://mews.atlassian.net/browse/TW-1766"
+     "label": "Jira TW-1934",
+     "url": "https://mews.atlassian.net/browse/TW-1934"
     }
    ],
-   "source": "Jira TW-1766",
+   "source": "Jira (TW Release/Coming Soon tickets)",
    "confirmed_public": true
   },
   {
@@ -173,84 +120,68 @@
    "realm": [
     "all"
    ],
-   "summary": "Expired Inquired/Optional reservations now cancel as 'Confirmation missed'; only confirmed guests who never arrive are 'No show'.",
-   "segmentation": "Tier 3. All Mews Operations users; nothing to set up.",
+   "summary": "Inquired/Optional reservations that pass arrival are now cancelled as 'Confirmation missed', not 'No show'. Confirmed non-arrivals still count as no-shows.",
+   "pitch": "",
+   "segmentation": "Tier 3. All plans; applies from release date.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/get-accurate-no_show-figures-in-your-reservation-report-in-mews-operations-O5Yhd74A"
-    },
     {
      "label": "Jira TW-2715",
      "url": "https://mews.atlassian.net/browse/TW-2715"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/get-accurate-no_show-figures-in-your-reservation-report-in-mews-operations-O5Yhd74A"
     }
    ],
-   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2715",
+   "source": "#prod-roadmap-updates, Jira TW-2715",
    "confirmed_public": true
   },
   {
-   "title": "Sell limits: cap rooms sold per rate",
+   "title": "Sell limits per rate",
    "status": "ga",
    "date": "2026-10-14",
    "area": "PMS",
    "realm": [
     "all"
    ],
-   "summary": "Cap rooms sold per rate or rate group per day, optionally by room category. Set up in Settings.",
-   "segmentation": "Tier 2. Applies in Mews Operations, Booking Engine and Mews API only, not yet other channel managers/CRSs/booking engines.",
+   "summary": "Hotels can cap how many rooms a rate or rate group sells per day, optionally per room category. Applies in PMS, Booking Engine and API only, not other channel managers/CRSs yet (RMS ticket label in Jira).",
+   "pitch": "",
+   "segmentation": "Tier 2. All PMS users. Do not promise it works on every channel.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/decide-how-many-rooms-each-rate-sells-with-sell-limits-in-mews-rms"
-    },
     {
      "label": "Jira TW-2804",
      "url": "https://mews.atlassian.net/browse/TW-2804"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/decide-how-many-rooms-each-rate-sells-with-sell-limits-in-mews-rms"
     }
    ],
-   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2804",
+   "source": "#prod-roadmap-updates, Jira TW-2804",
    "confirmed_public": true
   },
   {
-   "title": "Clear price and occupancy overrides in bulk (Revenue workspace)",
+   "title": "Bulk clear price and occupancy overrides in Revenue workspace",
    "status": "ga",
    "date": "2026-10-14",
    "area": "RMS",
    "realm": [
     "all"
    ],
-   "summary": "Clear price and/or occupancy overrides across a date range in one action, filtered by day of week, override type and space category.",
-   "segmentation": "Tier 3. Revenue workspace users.",
+   "summary": "Clear price and/or occupancy overrides across a date range in one action, with day-of-week, type and space-category filters.",
+   "pitch": "",
+   "segmentation": "Tier 3. All Revenue workspace users.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/clear-price-and-occupancy-overrides-in-bulk-in-the-revenue-workspace-in-mews-operations-gmLdYiUb"
-    },
     {
      "label": "Jira TW-2719",
      "url": "https://mews.atlassian.net/browse/TW-2719"
-    }
-   ],
-   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2719",
-   "confirmed_public": true
-  },
-  {
-   "title": "Set a different price per date in one bulk edit (RMS)",
-   "status": "ga",
-   "date": "2026-10-07",
-   "area": "RMS",
-   "realm": [
-    "all"
-   ],
-   "summary": "Bulk price editing can set a unique custom price or RMS price hierarchy per date in one edit.",
-   "segmentation": "Tier 3. Mews RMS users.",
-   "links": [
+    },
     {
      "label": "Release note",
-     "url": "https://releases.mews.com/en/save-time-editing-prices-in-bulk-in-mews-operations-set-a-different-price-for-each-date-in-one-go-aVJs27S2"
+     "url": "https://releases.mews.com/en/clear-price-and-occupancy-overrides-in-bulk-in-the-revenue-workspace-in-mews-operations-gmLdYiUb"
     }
    ],
-   "source": "#prod-roadmap-updates",
+   "source": "#prod-roadmap-updates, Jira TW-2719",
    "confirmed_public": true
   },
   {
@@ -261,103 +192,168 @@
    "realm": [
     "all"
    ],
-   "summary": "New filterable table of reservations and a side panel to view/edit reservations from Timeline and Reservation Overview, easier for large group blocks.",
-   "segmentation": "Tier 3. All Mews Operations users.",
+   "summary": "New filterable, sortable reservation table, plus a side panel to view/edit reservations from the Timeline and Reservation Overview without opening the full module.",
+   "pitch": "",
+   "segmentation": "Tier 3. All users.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/manage-individual-reservations-and-groups-without-leaving-your-workflow-in-mews-operations-cJnbBWt1"
-    },
     {
      "label": "Jira TW-1792",
      "url": "https://mews.atlassian.net/browse/TW-1792"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/manage-individual-reservations-and-groups-without-leaving-your-workflow-in-mews-operations-cJnbBWt1"
     }
    ],
-   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-1792",
+   "source": "#prod-roadmap-updates, Jira TW-1792",
    "confirmed_public": true
   },
   {
-   "title": "Issue a duplicate key to keep existing keys working",
+   "title": "Issue a duplicate key without cancelling existing keys",
    "status": "ga",
    "date": "2026-10-13",
    "area": "Digital Key",
    "realm": [
     "all"
    ],
-   "summary": "When issuing a key, choose 'new' (cancels earlier keys) or 'duplicate' (keeps them active). Works for physical and digital keys.",
-   "segmentation": "Tier 3. All Mews Operations users.",
+   "summary": "When issuing a key, choose new (cancels earlier keys, as before) or duplicate (keeps existing keys active). Works for physical and digital keys. PMS check-in is where staff use it.",
+   "pitch": "",
+   "segmentation": "Tier 3. All users.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/keep-a-guests-existing-key-working-by-issuing-a-duplicate-in-mews-operations-bumSnsXg"
-    },
     {
      "label": "Jira TW-2801",
      "url": "https://mews.atlassian.net/browse/TW-2801"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/keep-a-guests-existing-key-working-by-issuing-a-duplicate-in-mews-operations-bumSnsXg"
     }
    ],
    "source": "#prod-roadmap-updates, Jira TW-2801",
    "confirmed_public": true
   },
   {
-   "title": "Billing visibility at check-out",
+   "title": "Bill visibility in the check-out dialog (Germany)",
    "status": "ga",
    "date": "2026-10-13",
    "area": "PMS",
    "realm": [
     "DACH"
    ],
-   "summary": "The check-out dialog shows unbalanced bills (clickable), bills that close and where closed bills are sent, with editable email saved to the guest profile.",
-   "segmentation": "Tier 3. Slack states Germany only; the Jira ticket also mentions a phased rollout by market, so check availability per property before promising.",
+   "summary": "Check-out now shows which bills are unpaid, which will close and where closed bills are sent; addresses can be fixed in place.",
+   "pitch": "",
+   "segmentation": "Tier 3. Germany only.",
    "links": [
-    {
-     "label": "Release note",
-     "url": "https://releases.mews.com/en/see-what-happens-to-your-bills-before-you-check-out-in-mews-operations-GxRqLEOo"
-    },
     {
      "label": "Jira TW-2703",
      "url": "https://mews.atlassian.net/browse/TW-2703"
+    },
+    {
+     "label": "Release note",
+     "url": "https://releases.mews.com/en/see-what-happens-to-your-bills-before-you-check-out-in-mews-operations-GxRqLEOo"
     }
    ],
-   "source": "#prod-roadmap-updates, releases.mews.com, Jira TW-2703",
+   "source": "#prod-roadmap-updates, Jira TW-2703",
    "confirmed_public": true
   },
   {
-   "title": "Multicurrency: clearer Payment report and invoices",
+   "title": "Cancellation fees post to accounting on consumption date",
    "status": "ga",
-   "date": "2026-10-08",
-   "area": "Payments",
+   "date": "2026-10-21",
+   "area": "Accounts Receivable",
    "realm": [
     "all"
    ],
-   "summary": "Payment report and invoices show Multicurrency revenue more clearly.",
-   "segmentation": "Tier 4. Only customers with Multicurrency enabled.",
+   "summary": "Cancellation fees now post to accounting on the consumption date, including when a reservation is moved, rather than when the related reservation is checked in.",
+   "pitch": "",
+   "segmentation": "Tier 3.",
    "links": [
     {
-     "label": "Jira TW-1110",
-     "url": "https://mews.atlassian.net/browse/TW-1110"
+     "label": "Jira TW-2785",
+     "url": "https://mews.atlassian.net/browse/TW-2785"
     }
    ],
-   "source": "Jira TW-1110",
+   "source": "Jira TW-2785 (not in Slack)",
    "confirmed_public": true
   },
   {
-   "title": "Granular user permissions for accounting",
+   "title": "Redesigned bookable service setup and settings pages",
    "status": "ga",
-   "date": "2026-10-13",
-   "area": "Security",
+   "date": "2026-10-21",
+   "area": "PMS",
    "realm": [
     "all"
    ],
-   "summary": "Remaining view/edit permissions for accounting categories, outlets, Bills & invoices and Manager reports and ledgers.",
-   "segmentation": "Admins; in-app message planned.",
+   "summary": "Bookable service setup and settings pages have been redesigned.",
+   "pitch": "",
+   "segmentation": "Tier 3.",
    "links": [
     {
-     "label": "Jira TW-1552",
-     "url": "https://mews.atlassian.net/browse/TW-1552"
+     "label": "Jira TW-2799",
+     "url": "https://mews.atlassian.net/browse/TW-2799"
     }
    ],
-   "source": "Jira TW-1552",
+   "source": "Jira TW-2799 (not in Slack)",
+   "confirmed_public": true
+  },
+  {
+   "title": "Sync spaces, space types and floors from Mews to Flexkeeping",
+   "status": "ga",
+   "date": "2026-10-22",
+   "area": "Housekeeping",
+   "realm": [
+    "all"
+   ],
+   "summary": "Continuous sync of property structure (spaces, categories, floors) from Mews to Flexkeeping.",
+   "pitch": "",
+   "segmentation": "Tier 3.",
+   "links": [
+    {
+     "label": "Jira TW-2843",
+     "url": "https://mews.atlassian.net/browse/TW-2843"
+    }
+   ],
+   "source": "Jira TW-2843 (not in Slack)",
+   "confirmed_public": true
+  },
+  {
+   "title": "France e-Reporting in Mews POS",
+   "status": "ga",
+   "date": "2026-10-23",
+   "area": "Compliance Suite",
+   "realm": [
+    "FR"
+   ],
+   "summary": "B2C sales from Mews POS are reported automatically under France e-Reporting.",
+   "pitch": "",
+   "segmentation": "France properties using Mews POS.",
+   "links": [
+    {
+     "label": "Jira TW-2944",
+     "url": "https://mews.atlassian.net/browse/TW-2944"
+    }
+   ],
+   "source": "Jira TW-2944 (not in Slack)",
+   "confirmed_public": true
+  },
+  {
+   "title": "Set PMS codes on product categories yourself (POS)",
+   "status": "ga",
+   "date": "2026-10-26",
+   "area": "POS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Admins can edit PMS codes on categories and taxes; the category PMS code becomes mandatory for Mews PMS.",
+   "pitch": "",
+   "segmentation": "Tier 3.",
+   "links": [
+    {
+     "label": "Jira TW-2932",
+     "url": "https://mews.atlassian.net/browse/TW-2932"
+    }
+   ],
+   "source": "Jira TW-2932 (not in Slack)",
    "confirmed_public": true
   },
   {
@@ -366,11 +362,18 @@
    "date": "2026-10-16",
    "area": "Payments",
    "realm": [
-    "all"
+    "Americas",
+    "DACH",
+    "FR",
+    "UK&I",
+    "Nordics",
+    "Benelux",
+    "Southern Europe",
+    "CEE"
    ],
-   "summary": "Guests will be able to pay in their home currency on Mews Terminals, with rate and fee shown up front; the property keeps part of the conversion fee. Gradual rollout, email on activation.",
-   "pitch": "Position as 'coming soon', not live yet.",
-   "segmentation": "Tier 2. Selected US/Canada properties plus Adyen-powered terminals in Europe. Not live yet; nothing for customers to do.",
+   "summary": "Multicurrency by Mews Payments is coming to Mews Terminals: selected US/Canada properties plus all Adyen terminals in Europe. Guests see rate and fee up front; the property keeps part of the conversion fee. Gradual rollout, email on activation.",
+   "pitch": "Position as 'coming soon', not live. Nothing for customers to do now.",
+   "segmentation": "Tier 2. Availability varies by property.",
    "links": [
     {
      "label": "Jira TW-2420",
@@ -381,26 +384,6 @@
    "confirmed_public": true
   },
   {
-   "title": "Report period dates change in Manager and Ledger Activity exports",
-   "status": "coming_soon",
-   "date": "2026-10-22",
-   "area": "Accounts Receivable",
-   "realm": [
-    "all"
-   ],
-   "summary": "Period display and export file names will show a true from-to period matching the business day. This can break automated imports of these files.",
-   "pitch": "Heads-up for customers with automated imports.",
-   "segmentation": "Gradual rollout to selected properties; no public date yet. Warn customers with scheduled exports.",
-   "links": [
-    {
-     "label": "Jira TW-2850",
-     "url": "https://mews.atlassian.net/browse/TW-2850"
-    }
-   ],
-   "source": "Jira TW-2850",
-   "confirmed_public": true
-  },
-  {
    "title": "Bed-based hostel reporting in Mews BI",
    "status": "coming_soon",
    "date": "2026-10-22",
@@ -408,64 +391,82 @@
    "realm": [
     "all"
    ],
-   "summary": "Mews BI will report on beds, not rooms, so dorm occupancy is accurate for hostels.",
-   "segmentation": "Tier 1. No date set.",
+   "summary": "Bed-centric data model so hostels can report occupancy by bed in Mews BI.",
+   "pitch": "",
+   "segmentation": "Tier 1 coming soon.",
    "links": [
     {
      "label": "Jira TW-2789",
      "url": "https://mews.atlassian.net/browse/TW-2789"
     }
    ],
-   "source": "Jira TW-2789",
+   "source": "Jira TW-2789 (not in Slack)",
    "confirmed_public": true
   },
   {
-   "title": "Online payments availability on Adyen",
+   "title": "Manager report and Ledger Activity Report: full reporting period dates",
    "status": "coming_soon",
-   "date": "2026-10-20",
-   "area": "Payments",
+   "date": "2026-10-22",
+   "area": "Accounts Receivable",
    "realm": [
     "all"
    ],
-   "summary": "Coming-soon content created for online payments availability on Adyen. Details limited.",
-   "segmentation": "Tier 2. Timing TBC; check the ticket before sharing.",
+   "summary": "File exports of the Manager report and Ledger Activity Report will align date presentation with the business-day definition.",
+   "pitch": "",
+   "segmentation": "Customer heads-up before the change.",
    "links": [
     {
-     "label": "Jira TW-1934",
-     "url": "https://mews.atlassian.net/browse/TW-1934"
+     "label": "Jira TW-2850",
+     "url": "https://mews.atlassian.net/browse/TW-2850"
     }
    ],
-   "source": "Jira TW-1934",
+   "source": "Jira TW-2850 (not in Slack)",
    "confirmed_public": true
   },
   {
-   "title": "Compliance Suite Tax Automation and Tax Intelligence go live 1 Dec",
+   "title": "Accounts Receivable bundle for October (three new AR features)",
+   "status": "coming_soon",
+   "date": "2026-10-26",
+   "area": "Accounts Receivable",
+   "realm": [
+    "all"
+   ],
+   "summary": "Coming-soon note for three new Accounts Receivable features in Mews Operations. Details not yet in the ticket summary.",
+   "pitch": "",
+   "segmentation": "Customers eligible for Accounts Receivable.",
+   "links": [
+    {
+     "label": "Jira TW-2867",
+     "url": "https://mews.atlassian.net/browse/TW-2867"
+    }
+   ],
+   "source": "Jira TW-2867 (not in Slack)",
+   "confirmed_public": true
+  },
+  {
+   "title": "Compliance Suite country launches (in-app messages, relaunch 1 Nov)",
    "status": "coming_soon",
    "date": "2026-10-13",
    "area": "Compliance Suite",
    "realm": [
-    "FR",
-    "DACH",
-    "UK&I",
     "Nordics",
     "Benelux",
-    "Southern Europe",
+    "DACH",
     "CEE",
+    "FR",
+    "Southern Europe",
     "Americas"
    ],
-   "summary": "In-app messages tell users in many European markets and the US that Tax Automation and Tax Intelligence go live on 1 Dec 2026 (Czechia also EET 2.0).",
-   "segmentation": "Messages launched 13 Oct, relaunch 1 Nov.",
+   "summary": "Coming-soon in-app messages launched 13 Oct (relaunch 1 Nov) for Compliance Suite in Norway, Sweden, Belgium, Austria, Germany, Poland, Czechia, Croatia, Spain, France, Italy, plus Tax Automation & Tax Intelligence (US).",
+   "pitch": "",
+   "segmentation": "Per-country in-app messaging.",
    "links": [
     {
-     "label": "Jira TW-2727",
-     "url": "https://mews.atlassian.net/browse/TW-2727"
-    },
-    {
-     "label": "Jira TW-2728",
-     "url": "https://mews.atlassian.net/browse/TW-2728"
+     "label": "Jira TW (Compliance Suite coming-soon in-app messages)",
+     "url": "https://mews.atlassian.net/jira/software/c/projects/TW"
     }
    ],
-   "source": "Jira TW-2727 to TW-2739",
+   "source": "Jira TW (not in Slack)",
    "confirmed_public": true
   },
   {
@@ -476,39 +477,82 @@
    "realm": [
     "all"
    ],
-   "summary": "Fin AI support agent went live 26 Oct for Support and Onboarding on PMS, POS and Flexkeeping, in five languages. Hypercare runs to 6 Nov; Ada stays for EMS and Atomize.",
+   "summary": "Fin AI support agent went live 26 Oct for Support and Onboarding on PMS, POS and Flexkeeping; Ada stays for EMS/Atomize during hypercare to 6 Nov. Early resolution rate ~88%.",
+   "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
    "links": [],
    "source": "#rnd",
-   "confirmed_public": false
+   "confirmed_public": true
   },
   {
-   "title": "Events rebuild in the PMS (Alpha late Nov, Beta H1 2027)",
+   "title": "Events rebuild in the PMS",
    "status": "radar",
    "date": "2026-10-09",
    "area": "Events",
    "realm": [
     "all"
    ],
-   "summary": "R&D working assumptions only: Alpha late Nov 2026 with design partners, Beta H1 2027, soft GA late Q1 2027. GTM says don't hard-commit dates and not to demo externally; the teaser video is for 1:1 use only. Hold announcements.",
+   "summary": "Alpha late Nov 2026 (design partners, not for sale), Beta H1 Q1 2027, GA soft launch late Q1 2027. Working assumptions only. Hold the line on external demos; do not hard-commit dates. Teaser video OK 1:1 only, not on socials.",
+   "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
-   "links": [],
+   "links": [
+    {
+     "label": "Events FAQ",
+     "url": "https://mews.atlassian.net/wiki/spaces/PMKT/pages/2149581432/Mews+Events+FAQ"
+    }
+   ],
    "source": "#gtm-rnd",
-   "confirmed_public": false
+   "confirmed_public": true
   },
   {
-   "title": "Fintech look-ahead: Payments Checkout GA, Payouts API beta, iDEAL recurring",
+   "title": "Move a property between chains (data sharing clusters)",
    "status": "radar",
-   "date": "2026-10-09",
-   "area": "Payments",
+   "date": "2026-10-15",
+   "area": "Multi-Property",
    "realm": [
     "all"
    ],
-   "summary": "October TOI lists Mews Payments Checkout (GA), Payouts and Balance Transactions APIs (beta), recurring iDEAL payments and a new Payments report as upcoming. Internal TOI, not public.",
+   "summary": "Chains tribe is designing a guided, self-serve flow to move a property to another chain; collecting edge cases (property freeze, integrations) before first prod move.",
+   "pitch": "",
    "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
    "links": [],
    "source": "#rnd",
-   "confirmed_public": false
+   "confirmed_public": true
+  },
+  {
+   "title": "Time zone database upgrade (TZDB 2026e) on 3 Nov",
+   "status": "radar",
+   "date": "2026-10-08",
+   "area": "PMS",
+   "realm": [
+    "all"
+   ],
+   "summary": "Upgrade follows INC-1788 (Moroccan properties couldn't book). Manual test 28 Oct on Azores, Edmonton, Mexico, Kyrgyzstan clock-change days.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [
+    {
+     "label": "Jira RNDALL-35",
+     "url": "https://mews.atlassian.net/browse/RNDALL-35"
+    }
+   ],
+   "source": "#rnd",
+   "confirmed_public": true
+  },
+  {
+   "title": "New naming rules for Mews AI products",
+   "status": "radar",
+   "date": "2026-10-09",
+   "area": "Other",
+   "realm": [
+    "all"
+   ],
+   "summary": "Navigator is dropped as a name; umbrella is 'Mews AI', domain products '[Domain] AI'; avoid Agent, Copilot, Coworker in product naming.",
+   "pitch": "",
+   "segmentation": "🔒 Internal signal only — not publicly confirmed. Do not mention to customers.",
+   "links": [],
+   "source": "#rnd",
+   "confirmed_public": true
   }
  ]
 }
